@@ -1,0 +1,162 @@
+{
+ "snapshotDateET": "2026-09-16",
+ "takenAt": "2026-09-16T07:02:16.783Z",
+ "source": "Derived metrics from the SIGNUM HQ app (signumhq.com). Not quotes, not advice. CC BY 4.0.",
+ "fields": {
+  "expiration": "expiration the levels refer to",
+  "spot": "reference price at snapshot time (session shown)",
+  "maxPain": "strike where total option-holder value is minimized at expiration",
+  "netGex": "net dealer gamma exposure (USD per 1% move); positive = dealers net long gamma",
+  "gammaFlip": "spot level where net GEX changes sign",
+  "callWall": "strike with the largest call open interest",
+  "putFloor": "strike with the largest put open interest",
+  "pinZone": "strike with the heaviest combined open interest",
+  "putCallRatio": "put/call open-interest ratio"
+ },
+ "tickers": {
+  "SPY": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 758.125,
+   "maxPain": 755,
+   "netGex": 935245842,
+   "gammaFlip": 645,
+   "callWall": 790,
+   "putFloor": 620,
+   "pinZone": 755,
+   "putCallRatio": 3.44
+  },
+  "QQQ": {
+   "expiration": "2026-09-18",
+   "session": "CLOSED",
+   "spot": 705.249,
+   "maxPain": 700,
+   "netGex": 350083820,
+   "gammaFlip": 600,
+   "callWall": 800,
+   "putFloor": 700,
+   "pinZone": 700,
+   "putCallRatio": 1.36
+  },
+  "AAPL": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 331.6,
+   "maxPain": 305,
+   "netGex": -110520333,
+   "gammaFlip": 330,
+   "callWall": 350,
+   "putFloor": 300,
+   "pinZone": 305,
+   "putCallRatio": 0.89
+  },
+  "NVDA": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 212.62,
+   "maxPain": 205,
+   "netGex": -82199040,
+   "gammaFlip": 220,
+   "callWall": 230,
+   "putFloor": 180,
+   "pinZone": 205,
+   "putCallRatio": 0.84
+  },
+  "TSLA": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 356.625,
+   "maxPain": 360,
+   "netGex": -2402676,
+   "gammaFlip": 392.5,
+   "callWall": 400,
+   "putFloor": 300,
+   "pinZone": 360,
+   "putCallRatio": 0.85
+  },
+  "MSFT": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 497.77,
+   "maxPain": 450,
+   "netGex": -66028474,
+   "gammaFlip": 490,
+   "callWall": 525,
+   "putFloor": 480,
+   "pinZone": 450,
+   "putCallRatio": 0.63
+  },
+  "AMZN": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 248.425,
+   "maxPain": 250,
+   "netGex": -9438212,
+   "gammaFlip": 265,
+   "callWall": 280,
+   "putFloor": 230,
+   "pinZone": 250,
+   "putCallRatio": 0.64
+  },
+  "META": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 670.31,
+   "maxPain": 605,
+   "netGex": -65635397,
+   "gammaFlip": 630,
+   "callWall": 700,
+   "putFloor": 550,
+   "pinZone": 605,
+   "putCallRatio": 0.82
+  },
+  "AMD": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 504.12,
+   "maxPain": 420,
+   "netGex": -19232789,
+   "gammaFlip": 500,
+   "callWall": 600,
+   "putFloor": 440,
+   "pinZone": 420,
+   "putCallRatio": 1.27
+  },
+  "GOOGL": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 344.41,
+   "maxPain": 335,
+   "netGex": -64603790,
+   "gammaFlip": 342.5,
+   "callWall": 400,
+   "putFloor": 310,
+   "pinZone": 335,
+   "putCallRatio": 0.6
+  },
+  "NFLX": {
+   "expiration": "2026-09-18",
+   "session": "PRE",
+   "spot": 79.47,
+   "maxPain": 77,
+   "netGex": -50539738,
+   "gammaFlip": 79,
+   "callWall": 90,
+   "putFloor": 65,
+   "pinZone": 77,
+   "putCallRatio": 0.53
+  },
+  "AVGO": {
+   "expiration": "2026-09-18",
+   "session": "POST",
+   "spot": 339.78,
+   "maxPain": 360,
+   "netGex": 34280245,
+   "gammaFlip": 290,
+   "callWall": 380,
+   "putFloor": 320,
+   "pinZone": 360,
+   "putCallRatio": 0.85
+  }
+ }
+}
