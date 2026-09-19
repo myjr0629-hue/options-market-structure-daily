@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Options Market Structure Daily — open dataset</title>
+<meta name="description" content="Daily options market structure snapshots for 12 US large caps: max pain, net dealer gamma exposure, gamma flip level, call wall, put floor, pin zone and put/call open-interest ratio. CC BY 4.0.">
+<link rel="canonical" href="https://myjr0629-hue.github.io/options-market-structure-daily/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Options Market Structure Daily",
+  "description": "Daily end-of-session options market structure snapshots for 12 US large caps (SPY, QQQ, AAPL, NVDA, TSLA, MSFT, AMZN, META, AMD, GOOGL, NFLX, AVGO). Each record carries the expiration the levels refer to, the reference spot at snapshot time, max pain, net dealer gamma exposure in USD per 1% move, the gamma flip level, the largest call open-interest strike (call wall), the largest put open-interest strike (put floor), the heaviest combined open-interest strike (pin zone) and the put/call open-interest ratio. Derived metrics only - not quotes, not investment advice.",
+  "url": "https://myjr0629-hue.github.io/options-market-structure-daily/",
+  "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "keywords": ["options", "open interest", "max pain", "gamma exposure", "GEX", "market structure", "US equities", "derivatives"],
+  "creator": {"@type": "Organization", "name": "SIGNUM HQ, LLC", "url": "https://signumhq.com"},
+  "distribution": [{
+    "@type": "DataDownload",
+    "encodingFormat": "application/json",
+    "contentUrl": "https://raw.githubusercontent.com/myjr0629-hue/options-market-structure-daily/main/2026-09-18.json"
+  }],
+  "variableMeasured": ["maxPain", "netGex", "gammaFlip", "callWall", "putFloor", "pinZone", "putCallRatio"],
+  "temporalCoverage": "2026-09-16/.."
+}
+</script>
+<style>
+:root{--bg:#fbfaf8;--fg:#1a1c1f;--mut:#5c6068;--line:#e4e1db;--acc:#1f5f4e;--code:#f2efe9}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141618;--fg:#e9e7e2;--mut:#9aa0a6;--line:#2b2f33;--acc:#6fd3b4;--code:#1d2023}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+h1{font-size:1.85rem;line-height:1.25;margin:0 0 .4rem;text-wrap:balance}
+.sub{color:var(--mut);margin:0 0 2rem}
+h2{font-size:1.1rem;margin:2.4rem 0 .6rem;letter-spacing:.01em}
+p{margin:0 0 1rem}
+code{background:var(--code);padding:.12em .38em;border-radius:4px;font-size:.9em}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:.45rem .6rem;border-bottom:1px solid var(--line)}
+th{color:var(--mut);font-weight:600}
+td:first-child{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.wrap{overflow-x:auto}
+a{color:var(--acc)}
+footer{margin-top:3rem;padding-top:1.25rem;border-top:1px solid var(--line);color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Options Market Structure Daily</h1>
+<p class="sub">Derived options-positioning snapshots for 12 US large caps, one file per session. CC BY 4.0.</p>
+
+<p>Each trading day this repository gets one JSON file named for the session date in US Eastern time, plus a small markdown table of the same numbers. The data describes where option open interest sits and how dealer gamma is distributed. It does not contain quotes and it is not investment advice.</p>
+
+<h2>Fields</h2>
+<div class="wrap">
+<table>
+<tr><th>Field</th><th>Meaning</th></tr>
+<tr><td>expiration</td><td>the expiration the levels refer to</td></tr>
+<tr><td>spot</td><td>reference price at snapshot time, with the session it came from</td></tr>
+<tr><td>maxPain</td><td>strike where total option-holder value is minimized at expiration</td></tr>
+<tr><td>netGex</td><td>net dealer gamma exposure in USD per 1% move; positive means dealers are net long gamma</td></tr>
+<tr><td>gammaFlip</td><td>spot level where net GEX changes sign</td></tr>
+<tr><td>callWall</td><td>strike with the largest call open interest</td></tr>
+<tr><td>putFloor</td><td>strike with the largest put open interest</td></tr>
+<tr><td>pinZone</td><td>strike with the heaviest combined open interest</td></tr>
+<tr><td>putCallRatio</td><td>put/call open-interest ratio</td></tr>
+</table>
+</div>
+
+<h2>Reading it honestly</h2>
+<p>None of these numbers predict direction. Max pain is a description of today's open-interest distribution, not a target. Net gamma tells you what kind of tape to expect, because it decides whether dealer hedging leans against moves or with them. Treat every level as belonging to one expiration, which is why the expiration ships inside every record.</p>
+
+<h2>Files</h2>
+<p>Browse the repository at <a href="https://github.com/myjr0629-hue/options-market-structure-daily">github.com/myjr0629-hue/options-market-structure-daily</a>. Raw JSON is served from <code>raw.githubusercontent.com</code> under the same path, one file per session date.</p>
+
+<h2>Where it comes from</h2>
+<p>The numbers are derived by SIGNUM HQ, a free US market app that computes these levels for its own screens. The same data is visible in the app, along with dark pool share and options flow, without an account. Comparable options-flow feeds in the US are sold at $50 to $99 a month.</p>
+<p><a href="https://signumhq.com/app?from=github_pages">signumhq.com/app</a></p>
+
+<footer>SIGNUM HQ, LLC · Data licensed CC BY 4.0 · Derived metrics only, not quotes, not investment advice.</footer>
+</main>
+</body>
+</html>
