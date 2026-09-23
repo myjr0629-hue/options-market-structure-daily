@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>US Congress Stock Trades — last 90 days, per ticker (open dataset)</title>
+<meta name="description" content="Stock trades disclosed by US senators and representatives in the last 90 days, per ticker: buys, sells, estimated net flow, distinct members and reporting lag. CSV and JSON, CC BY 4.0.">
+<link rel="canonical" href="https://myjr0629-hue.github.io/options-market-structure-daily/congress.html">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org/",
+ "@type": "Dataset",
+ "name": "US Congress Stock Trades — last 90 days, per ticker",
+ "description": "Stock trades disclosed by members of the US Senate and House under the STOCK Act over the last 90 days (window ending 2026-09-23), folded per ticker: number of buys and sells, estimated net dollar flow from the disclosed ranges, number of distinct members (spelling variants of the same member merged), last transaction and last disclosure date. Row-level file keeps the transaction date, disclosure date, reporting lag in days, amount range and a link to the official filing. Public records compiled for research; not investment advice.",
+ "url": "https://myjr0629-hue.github.io/options-market-structure-daily/congress.html",
+ "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "isAccessibleForFree": true,
+ "keywords": [
+  "congress stock trades",
+  "STOCK Act",
+  "periodic transaction report",
+  "senate stock trades",
+  "house stock trades",
+  "insider trading",
+  "US stocks"
+ ],
+ "creator": {
+  "@type": "Organization",
+  "name": "SIGNUM HQ",
+  "url": "https://www.signumhq.com"
+ },
+ "temporalCoverage": "2026-06-25/2026-09-23",
+ "dateModified": "2026-09-23",
+ "variableMeasured": [
+  "buys",
+  "sells",
+  "net_estimate_usd",
+  "distinct_members",
+  "lagDays",
+  "amountRange"
+ ],
+ "distribution": [
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "text/csv",
+   "contentUrl": "https://myjr0629-hue.github.io/options-market-structure-daily/congress-trades-90d.csv"
+  },
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "application/json",
+   "contentUrl": "https://myjr0629-hue.github.io/options-market-structure-daily/congress-by-ticker-90d.json"
+  }
+ ]
+}
+</script>
+<style>
+:root{--ink:#10151f;--sub:#5a6577;--line:#e2e6ee;--bg:#fbfbf8;--acc:#0f7b55;--neg:#b4233a}
+@media (prefers-color-scheme:dark){:root{--ink:#e9ecf2;--sub:#98a2b3;--line:#263041;--bg:#0c1118;--acc:#34d399;--neg:#f87171}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:920px;margin:0 auto;padding:40px 16px 64px}
+h1{font-size:28px;line-height:1.2;margin:0 0 8px;text-wrap:balance}h2{font-size:19px;margin:34px 0 10px}
+p{max-width:68ch}.sub{color:var(--sub)}.num{font-variant-numeric:tabular-nums}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--sub)}.pos{color:var(--acc)}.neg{color:var(--neg)}
+a{color:var(--acc)}code{font-size:13px}
+</style>
+</head>
+<body><main>
+<h1>US Congress Stock Trades — last 90 days, per ticker</h1>
+<p class="sub">Window 2026-06-25 → 2026-09-23 · 60 tickers · 192 disclosed trades · updated 2026-09-23</p>
+<p>Members of Congress must report stock trades over $1,000 within 45 days (STOCK Act, 2012), and only as dollar ranges. This page folds the last 90 days of those reports per ticker. Two things the raw tables hide are counted separately: <b>how many different members</b> are behind the filings (one member filing 17 times is one decision), and the <b>reporting lag</b> between the trade and the disclosure.</p>
+<p>Largest net flow in this window: <b>GS</b> — 18 buys, 0 sells, estimated +$3.28M, 2 members.</p>
+<h2>Top 25 by estimated net flow</h2>
+<div class="wrap"><table>
+<thead><tr><th>Ticker</th><th>Buys</th><th>Sells</th><th>Net (est.)</th><th>Members</th><th>Last trade</th><th>Last disclosed</th></tr></thead>
+<tbody>
+<tr><td><b>GS</b></td><td class="num">18</td><td class="num">0</td><td class="num pos">+$3.28M</td><td class="num">2</td><td class="num">2026-08-26</td><td class="num">2026-09-11</td></tr>
+<tr><td><b>TIC</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$1.13M</td><td class="num">1</td><td class="num">2026-08-11</td><td class="num">2026-09-01</td></tr>
+<tr><td><b>TKNO</b></td><td class="num">1</td><td class="num">67</td><td class="num neg">−$0.68M</td><td class="num">1+</td><td class="num">2026-08-12</td><td class="num">2026-09-01</td></tr>
+<tr><td><b>ITT</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.38M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>MLM</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.37M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>VIK</b></td><td class="num">0</td><td class="num">6</td><td class="num neg">−$0.24M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>WAB</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$0.21M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>LH</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.20M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>LYV</b></td><td class="num">0</td><td class="num">3</td><td class="num neg">−$0.19M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>ENTG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>BRO</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>PAYX</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>SIG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>MKL</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TRMB</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>EME</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>NDAQ</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>CNM</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>STE</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TDG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>SGI</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>AMZN</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-11</td><td class="num">2026-09-09</td></tr>
+<tr><td><b>BABA</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-07-24</td><td class="num">2026-09-07</td></tr>
+<tr><td><b>BWXT</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.17M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>LAMR</b></td><td class="num">0</td><td class="num">5</td><td class="num neg">−$0.14M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-11</td></tr>
+</tbody></table></div>
+<p class="sub">Net is estimated from the midpoints of the disclosed ranges. “+” after a member count means only the most recent 40 filings for that ticker were available.</p>
+<h2>Files</h2>
+<p><a href="congress-trades-90d.csv">congress-trades-90d.csv</a> — one row per disclosed trade: ticker, side, transaction date, disclosure date, lag in days, amount range, range midpoint, member, chamber, merged member key, official filing link.<br>
+<a href="congress-by-ticker-90d.json">congress-by-ticker-90d.json</a> — the per-ticker summary above, all 60 tickers.</p>
+<h2>Source and license</h2>
+<p>US Senate Electronic Financial Disclosures and US House Clerk periodic transaction reports, compiled by SIGNUM HQ. Data: CC BY 4.0. Public records for research and education — not investment advice, and a disclosure is a record of a past trade, not a signal of future prices.</p>
+<p>The same per-ticker view (with options flow and 13F holders next to it) is in the free SIGNUM HQ app for iOS and Android: <a href="https://signumhq.com/app?from=github_pages">signumhq.com/app</a>.</p>
+</main></body></html>
