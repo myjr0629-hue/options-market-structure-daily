@@ -24,6 +24,36 @@ Every value is a **derived metric** computed by the SIGNUM HQ app from the curre
 
 Traders and researchers use structure levels to *describe* where positioning is concentrated — for example, how far spot sits from max pain into a weekly expiration, or whether net GEX is positive (dealers hedge against moves) or negative (dealers hedge with moves). These are descriptions of current positioning, not forecasts.
 
+## Congress trades (last 90 days)
+
+`congress-trades-90d.csv` keeps one row per stock trade disclosed by members of the US Senate and House under the STOCK Act in the last 90 days: ticker, side, transaction date, disclosure date, reporting lag in days, amount range, range midpoint, member, chamber, a merged `member_key` (the same member often appears under different spellings in the source data) and a link to the official filing. `congress-by-ticker-90d.json` folds it per ticker: buys, sells, estimated net flow from the range midpoints and the number of distinct members.
+
+Browse it at https://myjr0629-hue.github.io/options-market-structure-daily/congress.html, with one page per member.
+
+## Usage
+
+```python
+import pandas as pd
+import requests
+
+BASE = "https://raw.githubusercontent.com/myjr0629-hue/options-market-structure-daily/main"
+
+# One day of options structure: {"snapshotDateET", "fields", "tickers": {"SPY": {...}, ...}}
+snap = requests.get(f"{BASE}/2026-09-22.json", timeout=30).json()
+levels = pd.DataFrame.from_dict(snap["tickers"], orient="index")
+print(levels[["expiration", "spot", "maxPain", "netGex", "gammaFlip", "callWall", "putFloor"]])
+
+# How far spot sits from max pain, in percent
+levels["spot_vs_max_pain_pct"] = (levels["spot"] / levels["maxPain"] - 1) * 100
+
+# Congress trades, one row per disclosed trade
+trades = pd.read_csv(f"{BASE}/congress-trades-90d.csv")
+per_member = trades.groupby("member_key").agg(trades=("ticker", "size"), tickers=("ticker", "nunique"), median_lag_days=("lagDays", "median"))
+print(per_member.sort_values("trades", ascending=False).head())
+```
+
+Field definitions for the daily files are in the `fields` object of each JSON file.
+
 ## Notes & license
 
 - Snapshots are taken after the US close; the `expiration` field states which expiration the levels refer to.
