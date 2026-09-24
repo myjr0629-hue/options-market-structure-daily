@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FINRA Daily Short Sale Volume Ratio — 49 US large caps &amp; ETFs, last 20 trading days (open dataset)</title>
-<meta name="description" content="FINRA short sale volume ratio for 49 US large caps and ETFs, 2026-08-26 to 2026-09-23: latest ratio vs each ticker's own average. CSV, CC BY 4.0. Not short interest.">
-<link rel="canonical" href="https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume.html">
+<title>미국 대형주·ETF 공매도 거래 비율(FINRA) — 49종목, 최근 20거래일</title>
+<meta name="description" content="FINRA 공개 파일로 계산한 미국 대형주·ETF 49종목의 일별 공매도 거래 비율(2026-08-26~2026-09-23). 마지막 날 비율과 종목별 평균의 차이. 공매도 잔고가 아닙니다. CSV 제공.">
+<link rel="canonical" href="https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume-ko.html">
 <link rel="alternate" hreflang="en" href="https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume.html">
 <link rel="alternate" hreflang="ko" href="https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume-ko.html">
 <link rel="alternate" hreflang="ja" href="https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume-ja.html">
@@ -14,9 +14,9 @@
 {
  "@context": "https://schema.org/",
  "@type": "Dataset",
- "name": "FINRA Daily Short Sale Volume Ratio — 49 US large caps & ETFs, last 20 trading days",
- "description": "Daily short sale volume, short-exempt volume and total volume reported to FINRA facilities (TRF, ADF, ORF — off-exchange trades, regular hours) for 49 widely held US stocks and ETFs, 2026-08-26 to 2026-09-23, with the short volume ratio (ShortVolume / TotalVolume). Compiled from FINRA's public Reg SHO daily files (consolidated CNMS file). This is traded volume flagged short, not short interest. Research data; not investment advice.",
- "url": "https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume.html",
+ "name": "미국 대형주·ETF 공매도 거래 비율(FINRA) — 49종목, 최근 20거래일",
+ "description": "FINRA 공개 파일로 계산한 미국 대형주·ETF 49종목의 일별 공매도 거래 비율(2026-08-26~2026-09-23). 마지막 날 비율과 종목별 평균의 차이. 공매도 잔고가 아닙니다. CSV 제공.",
+ "url": "https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume-ko.html",
  "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "isAccessibleForFree": true,
@@ -50,29 +50,30 @@
    "encodingFormat": "text/csv",
    "contentUrl": "https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume-20d.csv"
   }
- ]
+ ],
+ "inLanguage": "ko"
 }
 </script>
 <style>
 :root{--ink:#15202b;--mute:#5b6b7a;--line:#dde3ea;--up:#b42318;--dn:#0b6e4f;--bg:#fbfcfd}
-body{font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);max-width:860px;margin:0 auto;padding:24px 16px}
-h1{font-size:1.45rem;line-height:1.3;text-wrap:balance} p,li{max-width:68ch} .mute{color:var(--mute)}
+body{font:16px/1.65 -apple-system,"Apple SD Gothic Neo","Hiragino Sans","Noto Sans KR","Noto Sans JP",Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);max-width:860px;margin:0 auto;padding:24px 16px}
+h1{font-size:1.4rem;line-height:1.35;text-wrap:balance} p,li{max-width:68ch} .mute{color:var(--mute)}
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;margin:12px 0} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:right}
 th:first-child,td:first-child{text-align:left} .up{color:var(--up)} .dn{color:var(--dn)} .wrap{overflow-x:auto}
 </style>
 </head>
 <body>
-<h1>FINRA Daily Short Sale Volume Ratio — 49 US large caps &amp; ETFs, last 20 trading days</h1>
-<p class="mute">Snapshot through 2026-09-23 · source: FINRA Reg SHO daily short sale volume (consolidated file) · compiled by SIGNUM HQ</p>
-<h2>What this is — and what it is not</h2>
+<h1>미국 대형주·ETF 공매도 거래 비율(FINRA) — 49종목, 최근 20거래일</h1>
+<p class="mute">2026-09-23 기준 · 원천: FINRA Reg SHO 일일 공매도 거래량(통합 파일) · 정리: SIGNUM HQ</p>
+<h2>이 숫자가 뜻하는 것 — 그리고 뜻하지 않는 것</h2>
 <ul>
-<li><b>Short ratio</b> = ShortVolume ÷ TotalVolume of trades <b>reported to FINRA facilities</b> (off-exchange: TRF, ADF, ORF) during regular hours. Exchange-executed volume is not in these files.</li>
-<li>It is <b>not short interest</b> (open short positions). A large share of off-exchange short sales comes from market makers supplying liquidity, so ratios around 40–60% are normal.</li>
-<li>The useful signal is a ticker moving away from <b>its own</b> average — the table below ranks the latest day by that gap.</li>
+<li><b>공매도 비율</b> = FINRA 보고 시설(TRF·ADF·ORF)에 보고된 <b>장외 거래</b> 중 공매도로 표시된 거래량 ÷ 전체 거래량(정규장). 거래소에서 체결된 물량은 들어 있지 않습니다.</li>
+<li><b>공매도 잔고(short interest)가 아닙니다.</b> 장외 공매도의 상당수는 시장조성자가 유동성을 대는 과정의 매도라서 40~60%대가 보통입니다.</li>
+<li>의미 있는 신호는 그 종목이 <b>자기 평균</b>에서 벗어나는 변화입니다 — 아래 표는 마지막 날을 그 차이 순으로 정렬했습니다.</li>
 </ul>
-<h2>Latest day (2026-09-23) vs each ticker's 20-day average</h2>
+<h2>마지막 날(2026-09-23) vs 종목별 20거래일 평균</h2>
 <div class="wrap"><table>
-<thead><tr><th>Ticker</th><th>Short ratio</th><th>20-day avg</th><th>Gap (pp)</th><th>Off-exchange volume</th></tr></thead>
+<thead><tr><th>종목</th><th>공매도 비율</th><th>20일 평균</th><th>차이(%p)</th><th>장외 거래량</th></tr></thead>
 <tbody>
 <tr><td>SHOP</td><td>57.5%</td><td>41.1%</td><td class="up">+16.4</td><td>9.9M</td></tr>
 <tr><td>SOFI</td><td>52.9%</td><td>40.2%</td><td class="up">+12.7</td><td>30.2M</td></tr>
@@ -124,10 +125,10 @@ th:first-child,td:first-child{text-align:left} .up{color:var(--up)} .dn{color:va
 <tr><td>ADBE</td><td>44.2%</td><td>62.2%</td><td class="dn">-18.0</td><td>1.5M</td></tr>
 <tr><td>NFLX</td><td>24.0%</td><td>44.5%</td><td class="dn">-20.6</td><td>13.1M</td></tr>
 </tbody></table></div>
-<h2>Download</h2>
-<p><a href="finra-short-volume-20d.csv">finra-short-volume-20d.csv</a> — one row per ticker per day: date, symbol, short_volume, short_exempt_volume, total_volume, short_ratio_pct. License: CC BY 4.0 for this compilation; the underlying data is published by FINRA.</p>
-<h2>See it next to options positioning</h2>
-<p>The free SIGNUM HQ app shows this off-exchange short ratio for each ticker alongside max pain, gamma exposure and the call wall / put floor — the kind of view that usually sits behind $50–99/month terminals. <a href="https://signumhq.com/app?from=github_pages">https://signumhq.com/app?from=github_pages</a></p>
-<p class="mute">Also in this repository: <a href="congress.html">US Congress stock trades (90 days)</a> · <a href="./">daily options market structure snapshots</a>. Research data; not investment advice.</p>
+<h2>내려받기</h2>
+<p><a href="finra-short-volume-20d.csv">finra-short-volume-20d.csv</a> — 종목·날짜별 한 줄: date, symbol, short_volume, short_exempt_volume, total_volume, short_ratio_pct. 이 정리본은 CC BY 4.0, 원자료는 FINRA 가 공개합니다.</p>
+<h2>옵션 포지션과 나란히 보기</h2>
+<p>무료 앱 SIGNUM HQ 는 종목마다 이 장외 공매도 비율을 맥스페인·감마 노출·콜월/풋플로어와 함께 보여줍니다 — 보통 월 $50~99 유료 단말에서 보는 화면입니다. <a href="https://signumhq.com/app?from=github_pages&l=ko">https://signumhq.com/app?from=github_pages&l=ko</a></p>
+<p class="mute">영어판: <a href="finra-short-volume.html">English</a> · 일본어판: <a href="finra-short-volume-ja.html">日本語</a> · 연구용 데이터이며 투자 권유가 아닙니다.</p>
 </body>
 </html>
