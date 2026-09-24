@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FINRA Daily Short Sale Volume Ratio — 49 US large caps &amp; ETFs, last 20 trading days (open dataset)</title>
+<meta name="description" content="FINRA short sale volume ratio for 49 US large caps and ETFs, 2026-08-26 to 2026-09-23: latest ratio vs each ticker's own average. CSV, CC BY 4.0. Not short interest.">
+<link rel="canonical" href="https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume.html">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org/",
+ "@type": "Dataset",
+ "name": "FINRA Daily Short Sale Volume Ratio — 49 US large caps & ETFs, last 20 trading days",
+ "description": "Daily short sale volume, short-exempt volume and total volume reported to FINRA facilities (TRF, ADF, ORF — off-exchange trades, regular hours) for 49 widely held US stocks and ETFs, 2026-08-26 to 2026-09-23, with the short volume ratio (ShortVolume / TotalVolume). Compiled from FINRA's public Reg SHO daily files (consolidated CNMS file). This is traded volume flagged short, not short interest. Research data; not investment advice.",
+ "url": "https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume.html",
+ "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "isAccessibleForFree": true,
+ "creator": {
+  "@type": "Organization",
+  "name": "SIGNUM HQ",
+  "url": "https://signumhq.com"
+ },
+ "isBasedOn": "https://www.finra.org/finra-data/browse-catalog/short-sale-volume-data/daily-short-sale-volume-files",
+ "temporalCoverage": "2026-08-26/2026-09-23",
+ "keywords": [
+  "short volume",
+  "short sale volume",
+  "dark pool",
+  "off-exchange",
+  "FINRA",
+  "Reg SHO",
+  "short ratio",
+  "stocks",
+  "ETF"
+ ],
+ "variableMeasured": [
+  "short_volume",
+  "short_exempt_volume",
+  "total_volume",
+  "short_ratio_pct"
+ ],
+ "distribution": [
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "text/csv",
+   "contentUrl": "https://myjr0629-hue.github.io/options-market-structure-daily/finra-short-volume-20d.csv"
+  }
+ ]
+}
+</script>
+<style>
+:root{--ink:#15202b;--mute:#5b6b7a;--line:#dde3ea;--up:#b42318;--dn:#0b6e4f;--bg:#fbfcfd}
+body{font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);max-width:860px;margin:0 auto;padding:24px 16px}
+h1{font-size:1.45rem;line-height:1.3;text-wrap:balance} p,li{max-width:68ch} .mute{color:var(--mute)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;margin:12px 0} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left} .up{color:var(--up)} .dn{color:var(--dn)} .wrap{overflow-x:auto}
+</style>
+</head>
+<body>
+<h1>FINRA Daily Short Sale Volume Ratio — 49 US large caps &amp; ETFs, last 20 trading days</h1>
+<p class="mute">Snapshot through 2026-09-23 · source: FINRA Reg SHO daily short sale volume (consolidated file) · compiled by SIGNUM HQ</p>
+<h2>What this is — and what it is not</h2>
+<ul>
+<li><b>Short ratio</b> = ShortVolume ÷ TotalVolume of trades <b>reported to FINRA facilities</b> (off-exchange: TRF, ADF, ORF) during regular hours. Exchange-executed volume is not in these files.</li>
+<li>It is <b>not short interest</b> (open short positions). A large share of off-exchange short sales comes from market makers supplying liquidity, so ratios around 40–60% are normal.</li>
+<li>The useful signal is a ticker moving away from <b>its own</b> average — the table below ranks the latest day by that gap.</li>
+</ul>
+<h2>Latest day (2026-09-23) vs each ticker's 20-day average</h2>
+<div class="wrap"><table>
+<thead><tr><th>Ticker</th><th>Short ratio</th><th>20-day avg</th><th>Gap (pp)</th><th>Off-exchange volume</th></tr></thead>
+<tbody>
+<tr><td>SHOP</td><td>57.5%</td><td>41.1%</td><td class="up">+16.4</td><td>9.9M</td></tr>
+<tr><td>SOFI</td><td>52.9%</td><td>40.2%</td><td class="up">+12.7</td><td>30.2M</td></tr>
+<tr><td>META</td><td>54.9%</td><td>42.4%</td><td class="up">+12.5</td><td>14.7M</td></tr>
+<tr><td>IWM</td><td>69.8%</td><td>58.8%</td><td class="up">+11.1</td><td>8.5M</td></tr>
+<tr><td>SPY</td><td>68.5%</td><td>58.0%</td><td class="up">+10.6</td><td>14.5M</td></tr>
+<tr><td>MSTR</td><td>50.2%</td><td>40.0%</td><td class="up">+10.2</td><td>8.8M</td></tr>
+<tr><td>ARM</td><td>62.0%</td><td>52.4%</td><td class="up">+9.6</td><td>3.0M</td></tr>
+<tr><td>AVGO</td><td>44.6%</td><td>35.9%</td><td class="up">+8.8</td><td>7.2M</td></tr>
+<tr><td>AMC</td><td>45.1%</td><td>36.9%</td><td class="up">+8.2</td><td>11.8M</td></tr>
+<tr><td>LLY</td><td>52.2%</td><td>44.2%</td><td class="up">+8.0</td><td>0.8M</td></tr>
+<tr><td>PYPL</td><td>50.9%</td><td>44.0%</td><td class="up">+6.9</td><td>3.9M</td></tr>
+<tr><td>GME</td><td>64.6%</td><td>59.2%</td><td class="up">+5.5</td><td>5.9M</td></tr>
+<tr><td>RIVN</td><td>49.4%</td><td>44.5%</td><td class="up">+4.9</td><td>9.1M</td></tr>
+<tr><td>COIN</td><td>59.1%</td><td>54.3%</td><td class="up">+4.8</td><td>3.2M</td></tr>
+<tr><td>CVX</td><td>47.6%</td><td>43.7%</td><td class="up">+3.9</td><td>2.4M</td></tr>
+<tr><td>NKE</td><td>49.7%</td><td>45.8%</td><td class="up">+3.9</td><td>15.4M</td></tr>
+<tr><td>INTC</td><td>48.1%</td><td>44.3%</td><td class="up">+3.8</td><td>40.1M</td></tr>
+<tr><td>UNH</td><td>42.8%</td><td>39.0%</td><td class="up">+3.8</td><td>1.6M</td></tr>
+<tr><td>UBER</td><td>47.8%</td><td>44.5%</td><td class="up">+3.4</td><td>8.1M</td></tr>
+<tr><td>HOOD</td><td>53.0%</td><td>51.0%</td><td class="up">+2.0</td><td>8.1M</td></tr>
+<tr><td>COST</td><td>47.4%</td><td>45.7%</td><td class="up">+1.7</td><td>0.7M</td></tr>
+<tr><td>VLO</td><td>67.7%</td><td>66.4%</td><td class="up">+1.3</td><td>3.3M</td></tr>
+<tr><td>MSFT</td><td>41.8%</td><td>40.6%</td><td class="up">+1.2</td><td>7.0M</td></tr>
+<tr><td>PLTR</td><td>60.6%</td><td>59.9%</td><td class="up">+0.8</td><td>18.6M</td></tr>
+<tr><td>V</td><td>48.3%</td><td>47.6%</td><td class="up">+0.7</td><td>1.8M</td></tr>
+<tr><td>XOM</td><td>42.7%</td><td>42.8%</td><td class="dn">-0.0</td><td>4.6M</td></tr>
+<tr><td>GOOGL</td><td>37.6%</td><td>37.8%</td><td class="dn">-0.2</td><td>14.0M</td></tr>
+<tr><td>NVDA</td><td>37.8%</td><td>38.8%</td><td class="dn">-1.0</td><td>33.9M</td></tr>
+<tr><td>WMT</td><td>39.7%</td><td>41.2%</td><td class="dn">-1.5</td><td>5.4M</td></tr>
+<tr><td>SMCI</td><td>44.5%</td><td>46.4%</td><td class="dn">-1.8</td><td>18.1M</td></tr>
+<tr><td>ORCL</td><td>33.2%</td><td>35.4%</td><td class="dn">-2.1</td><td>10.4M</td></tr>
+<tr><td>PSX</td><td>55.4%</td><td>58.6%</td><td class="dn">-3.2</td><td>1.8M</td></tr>
+<tr><td>AMD</td><td>54.5%</td><td>58.5%</td><td class="dn">-4.0</td><td>7.5M</td></tr>
+<tr><td>TSLA</td><td>53.0%</td><td>57.5%</td><td class="dn">-4.5</td><td>17.6M</td></tr>
+<tr><td>QQQ</td><td>54.6%</td><td>59.3%</td><td class="dn">-4.7</td><td>12.9M</td></tr>
+<tr><td>DIA</td><td>41.7%</td><td>47.7%</td><td class="dn">-6.0</td><td>1.0M</td></tr>
+<tr><td>GS</td><td>42.7%</td><td>48.9%</td><td class="dn">-6.2</td><td>0.7M</td></tr>
+<tr><td>JPM</td><td>40.2%</td><td>47.4%</td><td class="dn">-7.2</td><td>2.5M</td></tr>
+<tr><td>AMZN</td><td>23.7%</td><td>31.4%</td><td class="dn">-7.7</td><td>19.0M</td></tr>
+<tr><td>AAPL</td><td>43.9%</td><td>51.9%</td><td class="dn">-8.0</td><td>10.4M</td></tr>
+<tr><td>BAC</td><td>31.4%</td><td>40.8%</td><td class="dn">-9.4</td><td>13.1M</td></tr>
+<tr><td>CRM</td><td>44.3%</td><td>55.2%</td><td class="dn">-10.9</td><td>3.3M</td></tr>
+<tr><td>MU</td><td>27.9%</td><td>39.2%</td><td class="dn">-11.3</td><td>10.9M</td></tr>
+<tr><td>DIS</td><td>30.8%</td><td>42.4%</td><td class="dn">-11.6</td><td>3.1M</td></tr>
+<tr><td>TSM</td><td>30.0%</td><td>41.8%</td><td class="dn">-11.8</td><td>4.4M</td></tr>
+<tr><td>BA</td><td>30.0%</td><td>43.0%</td><td class="dn">-13.1</td><td>4.8M</td></tr>
+<tr><td>MPC</td><td>43.6%</td><td>60.7%</td><td class="dn">-17.1</td><td>1.8M</td></tr>
+<tr><td>ADBE</td><td>44.2%</td><td>62.2%</td><td class="dn">-18.0</td><td>1.5M</td></tr>
+<tr><td>NFLX</td><td>24.0%</td><td>44.5%</td><td class="dn">-20.6</td><td>13.1M</td></tr>
+</tbody></table></div>
+<h2>Download</h2>
+<p><a href="finra-short-volume-20d.csv">finra-short-volume-20d.csv</a> — one row per ticker per day: date, symbol, short_volume, short_exempt_volume, total_volume, short_ratio_pct. License: CC BY 4.0 for this compilation; the underlying data is published by FINRA.</p>
+<h2>See it next to options positioning</h2>
+<p>The free SIGNUM HQ app shows this off-exchange short ratio for each ticker alongside max pain, gamma exposure and the call wall / put floor — the kind of view that usually sits behind $50–99/month terminals. <a href="https://signumhq.com/app?from=github_pages">https://signumhq.com/app?from=github_pages</a></p>
+<p class="mute">Also in this repository: <a href="congress.html">US Congress stock trades (90 days)</a> · <a href="./">daily options market structure snapshots</a>. Research data; not investment advice.</p>
+</body>
+</html>
