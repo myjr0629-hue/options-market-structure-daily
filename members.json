@@ -1,0 +1,122 @@
+[
+ {
+  "slug": "congress-april-delaney.html",
+  "display": "April Delaney",
+  "chamber": "house",
+  "trades": 73
+ },
+ {
+  "slug": "congress-richard-blumenthal.html",
+  "display": "Richard Blumenthal",
+  "chamber": "senate",
+  "trades": 42
+ },
+ {
+  "slug": "congress-gilbert-cisneros.html",
+  "display": "Gilbert Cisneros",
+  "chamber": "house",
+  "trades": 17
+ },
+ {
+  "slug": "congress-david-mccormick.html",
+  "display": "David McCormick",
+  "chamber": "senate",
+  "trades": 17
+ },
+ {
+  "slug": "congress-scott-franklin.html",
+  "display": "Scott Franklin",
+  "chamber": "house",
+  "trades": 14
+ },
+ {
+  "slug": "congress-josh-gottheimer.html",
+  "display": "Josh Gottheimer",
+  "chamber": "house",
+  "trades": 4
+ },
+ {
+  "slug": "congress-maria-salazar.html",
+  "display": "Maria Salazar",
+  "chamber": "house",
+  "trades": 4
+ },
+ {
+  "slug": "congress-ro-khanna.html",
+  "display": "Ro Khanna",
+  "chamber": "house",
+  "trades": 4
+ },
+ {
+  "slug": "congress-pete-sessions.html",
+  "display": "Pete Sessions",
+  "chamber": "house",
+  "trades": 3
+ },
+ {
+  "slug": "congress-alan-armstrong.html",
+  "display": "Alan Armstrong",
+  "chamber": "senate",
+  "trades": 3
+ },
+ {
+  "slug": "congress-sheri-biggs.html",
+  "display": "Sheri Biggs",
+  "chamber": "house",
+  "trades": 2
+ },
+ {
+  "slug": "congress-thomas-kean.html",
+  "display": "Thomas Kean",
+  "chamber": "house",
+  "trades": 2
+ },
+ {
+  "slug": "congress-john-boozman.html",
+  "display": "John Boozman",
+  "chamber": "senate",
+  "trades": 2
+ },
+ {
+  "slug": "congress-cory-booker.html",
+  "display": "Cory Booker",
+  "chamber": "senate",
+  "trades": 2
+ },
+ {
+  "slug": "congress-sheldon-whitehouse.html",
+  "display": "Sheldon Whitehouse",
+  "chamber": "senate",
+  "trades": 2
+ },
+ {
+  "slug": "congress-shelley-capito.html",
+  "display": "Shelley Capito",
+  "chamber": "senate",
+  "trades": 2
+ },
+ {
+  "slug": "congress-richard-allen.html",
+  "display": "Richard Allen",
+  "chamber": "house",
+  "trades": 1
+ },
+ {
+  "slug": "congress-mitch-mcconnell.html",
+  "display": "Mitch McConnell",
+  "chamber": "senate",
+  "trades": 1
+ },
+ {
+  "slug": "congress-angus-king.html",
+  "display": "Angus King",
+  "chamber": "senate",
+  "trades": 1
+ },
+ {
+  "slug": "congress-brandon-gill.html",
+  "display": "Brandon Gill",
+  "chamber": "house",
+  "trades": 1
+ }
+]

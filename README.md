@@ -4,8 +4,9 @@ Daily snapshots of **options market structure** for large-cap US stocks and ETFs
 
 - **Max pain** — the strike where total option-holder value is minimized at expiration
 - **Net GEX** — net dealer gamma exposure (sign shows whether dealers are net long or short gamma)
-- **Gamma flip** — the spot level where net GEX changes sign
-- **Call wall / put floor** — strikes with the largest call / put open interest
+- **Gamma flip** — the spot level, searched within ±15% of spot, where net GEX changes sign
+- **Call wall / put floor** — the strike above spot (up to +20%) with the largest call open interest, and the strike below spot (down to −20%) with the largest put open interest
+- **Pin zone** — the same value as max pain (the app labels the max-pain strike as the pin zone)
 
 Files land in this repo as `YYYY-MM-DD.json` (one object per ticker, plus field definitions). Coverage today: SPY, QQQ, AAPL, NVDA, TSLA, MSFT, AMZN, META, AMD, GOOGL, NFLX, AVGO.
 
@@ -26,7 +27,9 @@ Traders and researchers use structure levels to *describe* where positioning is 
 
 ## Congress trades (last 90 days)
 
-`congress-trades-90d.csv` keeps one row per stock trade disclosed by members of the US Senate and House under the STOCK Act in the last 90 days: ticker, side, transaction date, disclosure date, reporting lag in days, amount range, range midpoint, member, chamber, a merged `member_key` (the same member often appears under different spellings in the source data) and a link to the official filing. `congress-by-ticker-90d.json` folds it per ticker: buys, sells, estimated net flow from the range midpoints and the number of distinct members.
+**Coverage (read this first):** this is a subset, not every congressional trade. The per-ticker file covers the tickers with the largest estimated net flow (60 of 182 tickers with disclosures in the 90-day window as of 2026-09-27), and at most 40 filings per ticker; `congress-by-ticker-90d.json` states the coverage in its `coverage` object. A version posted on 2026-09-23 described 192 trades by 16 members as if it were the full window — that count was this subset.
+
+`congress-trades-90d.csv` keeps one row per stock trade in that subset, disclosed by members of the US Senate and House under the STOCK Act in the last 90 days: ticker, side, transaction date, disclosure date, reporting lag in days, amount range, range midpoint, member, chamber, a merged `member_key` (the same member often appears under different spellings in the source data) and a link to the official filing. `congress-by-ticker-90d.json` folds it per ticker: buys, sells, estimated net flow from the range midpoints and the number of distinct members.
 
 Browse it at https://myjr0629-hue.github.io/options-market-structure-daily/congress.html, with one page per member.
 
@@ -57,5 +60,6 @@ Field definitions for the daily files are in the `fields` object of each JSON fi
 ## Notes & license
 
 - Snapshots are taken after the US close; the `expiration` field states which expiration the levels refer to.
+- One file per trading day. Days without a snapshot are left as gaps (for example 2026-09-17); there are no files for weekends or market holidays.
 - Data (JSON) is released under **CC BY 4.0** — cite “SIGNUM HQ (signumhq.com)”. The screenshot is © SIGNUM HQ, LLC.
 - Nothing here is investment advice. Past positioning does not determine future prices.

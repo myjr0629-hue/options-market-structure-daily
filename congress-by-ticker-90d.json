@@ -1,8 +1,17 @@
 {
- "generated": "2026-09-23",
+ "generated": "2026-09-27",
  "window_days": 90,
  "source": "US Senate eFD and House Clerk periodic transaction reports (STOCK Act), via SIGNUM HQ",
  "note": "Amounts are disclosed as ranges; net_estimate_usd uses range midpoints. distinct_members merges spelling variants of the same member.",
+ "coverage": {
+  "tickers_in_window": 182,
+  "tickers_included": 60,
+  "selection": "tickers with the largest absolute estimated net flow",
+  "per_ticker_row_cap": 40,
+  "all_rows_complete": false,
+  "row_count": 197,
+  "is_complete": false
+ },
  "tickers": [
   {
    "ticker": "GS",
@@ -45,23 +54,24 @@
    "rows_complete": false
   },
   {
-   "ticker": "ITT",
-   "buys": 0,
-   "sells": 1,
+   "ticker": "MLM",
+   "buys": 1,
+   "sells": 2,
    "net_estimate_usd": -375001,
-   "distinct_members": 1,
+   "distinct_members": 2,
    "members": [
-    "April Delaney (House)"
+    "April Delaney (House)",
+    "Ro Khanna (House)"
    ],
    "last_transaction": "2026-08-25",
    "last_disclosure": "2026-09-10",
    "rows_complete": true
   },
   {
-   "ticker": "MLM",
-   "buys": 1,
+   "ticker": "ITT",
+   "buys": 0,
    "sells": 1,
-   "net_estimate_usd": -367000,
+   "net_estimate_usd": -375001,
    "distinct_members": 1,
    "members": [
     "April Delaney (House)"
@@ -97,6 +107,21 @@
    "rows_complete": true
   },
   {
+   "ticker": "AAPL",
+   "buys": 0,
+   "sells": 4,
+   "net_estimate_usd": -199004,
+   "distinct_members": 3,
+   "members": [
+    "Pete Sessions (House)",
+    "Scott Franklin (House)",
+    "Shelley Moore Capito (Senate)"
+   ],
+   "last_transaction": "2026-09-22",
+   "last_disclosure": "2026-09-23",
+   "rows_complete": true
+  },
+  {
    "ticker": "LH",
    "buys": 0,
    "sells": 4,
@@ -114,6 +139,32 @@
    "buys": 0,
    "sells": 3,
    "net_estimate_usd": -191003,
+   "distinct_members": 1,
+   "members": [
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "NDAQ",
+   "buys": 0,
+   "sells": 1,
+   "net_estimate_usd": -175001,
+   "distinct_members": 1,
+   "members": [
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "STE",
+   "buys": 0,
+   "sells": 1,
+   "net_estimate_usd": -175001,
    "distinct_members": 1,
    "members": [
     "April Delaney (House)"
@@ -149,72 +200,7 @@
    "rows_complete": true
   },
   {
-   "ticker": "PAYX",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -175001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "SIG",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -175001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "MKL",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -175001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "TRMB",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -175001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "EME",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -175001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "NDAQ",
+   "ticker": "SGI",
    "buys": 0,
    "sells": 1,
    "net_estimate_usd": -175001,
@@ -240,19 +226,6 @@
    "rows_complete": true
   },
   {
-   "ticker": "STE",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -175001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
    "ticker": "TDG",
    "buys": 0,
    "sells": 1,
@@ -266,7 +239,46 @@
    "rows_complete": true
   },
   {
-   "ticker": "SGI",
+   "ticker": "SIG",
+   "buys": 0,
+   "sells": 1,
+   "net_estimate_usd": -175001,
+   "distinct_members": 1,
+   "members": [
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "TRMB",
+   "buys": 0,
+   "sells": 1,
+   "net_estimate_usd": -175001,
+   "distinct_members": 1,
+   "members": [
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "PAYX",
+   "buys": 0,
+   "sells": 1,
+   "net_estimate_usd": -175001,
+   "distinct_members": 1,
+   "members": [
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "MKL",
    "buys": 0,
    "sells": 1,
    "net_estimate_usd": -175001,
@@ -318,29 +330,30 @@
    "rows_complete": true
   },
   {
-   "ticker": "LAMR",
-   "buys": 0,
-   "sells": 5,
-   "net_estimate_usd": -138005,
-   "distinct_members": 1,
-   "members": [
-    "Gilbert Ray Cisneros (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-11",
-   "rows_complete": true
-  },
-  {
-   "ticker": "HUBB",
-   "buys": 4,
+   "ticker": "EME",
+   "buys": 1,
    "sells": 1,
-   "net_estimate_usd": -118497,
-   "distinct_members": 1,
+   "net_estimate_usd": -167000,
+   "distinct_members": 2,
    "members": [
-    "April Delaney (House)"
+    "April Delaney (House)",
+    "Ro Khanna (House)"
    ],
    "last_transaction": "2026-08-25",
    "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "LAMR",
+   "buys": 0,
+   "sells": 4,
+   "net_estimate_usd": -130004,
+   "distinct_members": 1,
+   "members": [
+    "Gilbert Cisneros (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-11",
    "rows_complete": true
   },
   {
@@ -367,6 +380,33 @@
    ],
    "last_transaction": "2026-08-25",
    "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "HUBB",
+   "buys": 4,
+   "sells": 1,
+   "net_estimate_usd": -118497,
+   "distinct_members": 1,
+   "members": [
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-10",
+   "rows_complete": true
+  },
+  {
+   "ticker": "ROL",
+   "buys": 0,
+   "sells": 2,
+   "net_estimate_usd": -107502,
+   "distinct_members": 2,
+   "members": [
+    "Richard W. Allen (House)",
+    "April Delaney (House)"
+   ],
+   "last_transaction": "2026-08-25",
+   "last_disclosure": "2026-09-23",
    "rows_complete": true
   },
   {
@@ -409,7 +449,36 @@
    "rows_complete": true
   },
   {
-   "ticker": "ROL",
+   "ticker": "NVDA",
+   "buys": 0,
+   "sells": 4,
+   "net_estimate_usd": -81004,
+   "distinct_members": 3,
+   "members": [
+    "Gilbert Cisneros (House)",
+    "Cory Booker (Senate)",
+    "Sheldon Whitehouse (Senate)"
+   ],
+   "last_transaction": "2026-08-18",
+   "last_disclosure": "2026-09-11",
+   "rows_complete": true
+  },
+  {
+   "ticker": "BNS",
+   "buys": 2,
+   "sells": 1,
+   "net_estimate_usd": 75001,
+   "distinct_members": 2,
+   "members": [
+    "Sheri Biggs (House)",
+    "Ro Khanna (House)"
+   ],
+   "last_transaction": "2026-09-01",
+   "last_disclosure": "2026-09-23",
+   "rows_complete": true
+  },
+  {
+   "ticker": "CLH",
    "buys": 0,
    "sells": 1,
    "net_estimate_usd": -75001,
@@ -445,34 +514,6 @@
    ],
    "last_transaction": "2026-08-13",
    "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "CLH",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -75001,
-   "distinct_members": 1,
-   "members": [
-    "April Delaney (House)"
-   ],
-   "last_transaction": "2026-08-25",
-   "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "NVDA",
-   "buys": 1,
-   "sells": 4,
-   "net_estimate_usd": -73003,
-   "distinct_members": 3,
-   "members": [
-    "Gilbert Ray Cisneros (House)",
-    "Cory Booker (Senate)",
-    "Sheldon Whitehouse (Senate)"
-   ],
-   "last_transaction": "2026-08-18",
-   "last_disclosure": "2026-09-11",
    "rows_complete": true
   },
   {
@@ -530,21 +571,6 @@
    "rows_complete": true
   },
   {
-   "ticker": "MCD",
-   "buys": 2,
-   "sells": 2,
-   "net_estimate_usd": -49000,
-   "distinct_members": 3,
-   "members": [
-    "Scott Franklin (House)",
-    "Cory Booker (Senate)",
-    "Ro Khanna (House)"
-   ],
-   "last_transaction": "2026-08-26",
-   "last_disclosure": "2026-09-18",
-   "rows_complete": true
-  },
-  {
    "ticker": "EA",
    "buys": 0,
    "sells": 3,
@@ -560,17 +586,17 @@
    "rows_complete": true
   },
   {
-   "ticker": "QCOM",
-   "buys": 0,
-   "sells": 3,
-   "net_estimate_usd": -48503,
+   "ticker": "WFC",
+   "buys": 2,
+   "sells": 0,
+   "net_estimate_usd": 40502,
    "distinct_members": 2,
    "members": [
-    "Maria Elvira Salazar (House)",
+    "Mitch McConnell (Senate)",
     "Ro Khanna (House)"
    ],
-   "last_transaction": "2026-08-19",
-   "last_disclosure": "2026-09-10",
+   "last_transaction": "2026-09-01",
+   "last_disclosure": "2026-09-21",
    "rows_complete": true
   },
   {
@@ -587,34 +613,6 @@
    "rows_complete": true
   },
   {
-   "ticker": "ETN",
-   "buys": 2,
-   "sells": 0,
-   "net_estimate_usd": 40502,
-   "distinct_members": 2,
-   "members": [
-    "Gilbert Cisneros (House)",
-    "Ro Khanna (House)"
-   ],
-   "last_transaction": "2026-08-27",
-   "last_disclosure": "2026-09-11",
-   "rows_complete": true
-  },
-  {
-   "ticker": "PWR",
-   "buys": 2,
-   "sells": 0,
-   "net_estimate_usd": 40502,
-   "distinct_members": 2,
-   "members": [
-    "Gilbert Cisneros (House)",
-    "Ro Khanna (House)"
-   ],
-   "last_transaction": "2026-08-27",
-   "last_disclosure": "2026-09-11",
-   "rows_complete": true
-  },
-  {
    "ticker": "TSCO",
    "buys": 0,
    "sells": 2,
@@ -625,20 +623,6 @@
    ],
    "last_transaction": "2026-08-25",
    "last_disclosure": "2026-09-10",
-   "rows_complete": true
-  },
-  {
-   "ticker": "PEP",
-   "buys": 5,
-   "sells": 0,
-   "net_estimate_usd": 40005,
-   "distinct_members": 2,
-   "members": [
-    "Scott Franklin (House)",
-    "Ro Khanna (House)"
-   ],
-   "last_transaction": "2026-08-26",
-   "last_disclosure": "2026-09-18",
    "rows_complete": true
   },
   {
@@ -669,16 +653,19 @@
    "rows_complete": true
   },
   {
-   "ticker": "WFC",
-   "buys": 1,
-   "sells": 0,
-   "net_estimate_usd": 32501,
-   "distinct_members": 1,
+   "ticker": "MSFT",
+   "buys": 3,
+   "sells": 4,
+   "net_estimate_usd": -32501,
+   "distinct_members": 4,
    "members": [
-    "Mitch McConnell (Senate)"
+    "Josh Gottheimer (House)",
+    "Thomas H. Kean (House)",
+    "Gilbert Cisneros (House)",
+    "Shelley Moore Capito (Senate)"
    ],
-   "last_transaction": "2026-09-01",
-   "last_disclosure": "2026-09-21",
+   "last_transaction": "2026-08-27",
+   "last_disclosure": "2026-09-15",
    "rows_complete": true
   },
   {
@@ -695,10 +682,10 @@
    "rows_complete": true
   },
   {
-   "ticker": "NKE",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -32501,
+   "ticker": "ETN",
+   "buys": 1,
+   "sells": 0,
+   "net_estimate_usd": 32501,
    "distinct_members": 1,
    "members": [
     "Gilbert Cisneros (House)"
@@ -734,6 +721,19 @@
    "rows_complete": true
   },
   {
+   "ticker": "NKE",
+   "buys": 0,
+   "sells": 1,
+   "net_estimate_usd": -32501,
+   "distinct_members": 1,
+   "members": [
+    "Gilbert Cisneros (House)"
+   ],
+   "last_transaction": "2026-08-27",
+   "last_disclosure": "2026-09-11",
+   "rows_complete": true
+  },
+  {
    "ticker": "STRL",
    "buys": 0,
    "sells": 1,
@@ -743,6 +743,19 @@
     "Gilbert Cisneros (House)"
    ],
    "last_transaction": "2026-08-07",
+   "last_disclosure": "2026-09-11",
+   "rows_complete": true
+  },
+  {
+   "ticker": "PWR",
+   "buys": 1,
+   "sells": 0,
+   "net_estimate_usd": 32501,
+   "distinct_members": 1,
+   "members": [
+    "Gilbert Cisneros (House)"
+   ],
+   "last_transaction": "2026-08-27",
    "last_disclosure": "2026-09-11",
    "rows_complete": true
   },
@@ -786,16 +799,16 @@
    "rows_complete": true
   },
   {
-   "ticker": "CNC",
-   "buys": 0,
-   "sells": 1,
-   "net_estimate_usd": -32501,
+   "ticker": "PEP",
+   "buys": 4,
+   "sells": 0,
+   "net_estimate_usd": 32004,
    "distinct_members": 1,
    "members": [
-    "Ro Khanna (House)"
+    "Scott Franklin (House)"
    ],
-   "last_transaction": "2026-08-10",
-   "last_disclosure": "2026-09-07",
+   "last_transaction": "2026-08-26",
+   "last_disclosure": "2026-09-18",
    "rows_complete": true
   }
  ]

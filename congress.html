@@ -11,7 +11,7 @@
  "@context": "https://schema.org/",
  "@type": "Dataset",
  "name": "US Congress Stock Trades — last 90 days, per ticker",
- "description": "Stock trades disclosed by members of the US Senate and House under the STOCK Act over the last 90 days (window ending 2026-09-23), folded per ticker: number of buys and sells, estimated net dollar flow from the disclosed ranges, number of distinct members (spelling variants of the same member merged), last transaction and last disclosure date. Row-level file keeps the transaction date, disclosure date, reporting lag in days, amount range and a link to the official filing. Public records compiled for research; not investment advice.",
+ "description": "Stock trades disclosed by members of the US Senate and House under the STOCK Act over the last 90 days (window ending 2026-09-27), folded per ticker: number of buys and sells, estimated net dollar flow from the disclosed ranges, number of distinct members (spelling variants of the same member merged), last transaction and last disclosure date. Coverage: the 60 tickers with the largest estimated net flow out of 182 with disclosures in the window; per-ticker rows are capped at 40, so totals here are a subset, not all trades. Row-level file keeps the transaction date, disclosure date, reporting lag in days, amount range and a link to the official filing. Public records compiled for research; not investment advice.",
  "url": "https://myjr0629-hue.github.io/options-market-structure-daily/congress.html",
  "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
  "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -30,8 +30,8 @@
   "name": "SIGNUM HQ",
   "url": "https://www.signumhq.com"
  },
- "temporalCoverage": "2026-06-25/2026-09-23",
- "dateModified": "2026-09-23",
+ "temporalCoverage": "2026-06-29/2026-09-27",
+ "dateModified": "2026-09-27",
  "variableMeasured": [
   "buys",
   "sells",
@@ -69,7 +69,8 @@ a{color:var(--acc)}code{font-size:13px}
 </head>
 <body><main>
 <h1>US Congress Stock Trades — last 90 days, per ticker</h1>
-<p class="sub">Window 2026-06-25 → 2026-09-23 · 60 tickers · 192 disclosed trades · updated 2026-09-23</p>
+<p class="sub">Window 2026-06-29 → 2026-09-27 · 60 of 182 tickers (largest estimated net flow) · 197 trade rows (up to 40 per ticker) · updated 2026-09-27</p>
+<p class="sub"><b>Coverage:</b> this is a subset — 60 of the 182 tickers with disclosures in the window, and at most 40 filings per ticker (incomplete: TKNO). Do not read the counts as all congressional trades.</p>
 <p>Members of Congress must report stock trades over $1,000 within 45 days (STOCK Act, 2012), and only as dollar ranges. This page folds the last 90 days of those reports per ticker. Two things the raw tables hide are counted separately: <b>how many different members</b> are behind the filings (one member filing 17 times is one decision), and the <b>reporting lag</b> between the trade and the disclosure.</p>
 <p>Largest net flow in this window: <b>GS</b> — 18 buys, 0 sells, estimated +$3.28M, 2 members.</p>
 <h2>Top 25 by estimated net flow</h2>
@@ -79,32 +80,32 @@ a{color:var(--acc)}code{font-size:13px}
 <tr><td><b>GS</b></td><td class="num">18</td><td class="num">0</td><td class="num pos">+$3.28M</td><td class="num">2</td><td class="num">2026-08-26</td><td class="num">2026-09-11</td></tr>
 <tr><td><b>TIC</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$1.13M</td><td class="num">1</td><td class="num">2026-08-11</td><td class="num">2026-09-01</td></tr>
 <tr><td><b>TKNO</b></td><td class="num">1</td><td class="num">67</td><td class="num neg">−$0.68M</td><td class="num">1+</td><td class="num">2026-08-12</td><td class="num">2026-09-01</td></tr>
+<tr><td><b>MLM</b></td><td class="num">1</td><td class="num">2</td><td class="num neg">−$0.38M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>ITT</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.38M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>MLM</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.37M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>VIK</b></td><td class="num">0</td><td class="num">6</td><td class="num neg">−$0.24M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>WAB</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$0.21M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>AAPL</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.20M</td><td class="num">3</td><td class="num">2026-09-22</td><td class="num">2026-09-23</td></tr>
 <tr><td><b>LH</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.20M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>LYV</b></td><td class="num">0</td><td class="num">3</td><td class="num neg">−$0.19M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>NDAQ</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>STE</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>ENTG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>BRO</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>PAYX</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>SIG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>MKL</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>TRMB</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>EME</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>NDAQ</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>CNM</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>STE</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>TDG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>SGI</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>CNM</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TDG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>SIG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TRMB</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>PAYX</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>MKL</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>AMZN</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-11</td><td class="num">2026-09-09</td></tr>
 <tr><td><b>BABA</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-07-24</td><td class="num">2026-09-07</td></tr>
 <tr><td><b>BWXT</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.17M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>LAMR</b></td><td class="num">0</td><td class="num">5</td><td class="num neg">−$0.14M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-11</td></tr>
+<tr><td><b>EME</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.17M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 </tbody></table></div>
 <p class="sub">Net is estimated from the midpoints of the disclosed ranges. “+” after a member count means only the most recent 40 filings for that ticker were available.</p>
 <h2>By member</h2>
-<p><a href="congress-april-delaney.html">April Delaney</a> (House, 73) · <a href="congress-richard-blumenthal.html">Richard Blumenthal</a> (Senate, 42) · <a href="congress-gilbert-cisneros.html">Gilbert Cisneros</a> (House, 18) · <a href="congress-david-mccormick.html">David McCormick</a> (Senate, 17) · <a href="congress-scott-franklin.html">Scott Franklin</a> (House, 14) · <a href="congress-maria-salazar.html">Maria Salazar</a> (House, 6) · <a href="congress-ro-khanna.html">Ro Khanna</a> (House, 6) · <a href="congress-alan-armstrong.html">Alan Armstrong</a> (Senate, 3) · <a href="congress-cory-booker.html">Cory Booker</a> (Senate, 3) · <a href="congress-pete-sessions.html">Pete Sessions</a> (House, 2) · <a href="congress-john-boozman.html">John Boozman</a> (Senate, 2) · <a href="congress-sheldon-whitehouse.html">Sheldon Whitehouse</a> (Senate, 2) · <a href="congress-mitch-mcconnell.html">Mitch McConnell</a> (Senate, 1) · <a href="congress-angus-king.html">Angus King</a> (Senate, 1) · <a href="congress-thomas-kean.html">Thomas Kean</a> (House, 1) · <a href="congress-brandon-gill.html">Brandon Gill</a> (House, 1)</p>
+<p><a href="congress-april-delaney.html">April Delaney</a> (House, 73) · <a href="congress-richard-blumenthal.html">Richard Blumenthal</a> (Senate, 42) · <a href="congress-gilbert-cisneros.html">Gilbert Cisneros</a> (House, 17) · <a href="congress-david-mccormick.html">David McCormick</a> (Senate, 17) · <a href="congress-scott-franklin.html">Scott Franklin</a> (House, 14) · <a href="congress-josh-gottheimer.html">Josh Gottheimer</a> (House, 4) · <a href="congress-maria-salazar.html">Maria Salazar</a> (House, 4) · <a href="congress-ro-khanna.html">Ro Khanna</a> (House, 4) · <a href="congress-pete-sessions.html">Pete Sessions</a> (House, 3) · <a href="congress-alan-armstrong.html">Alan Armstrong</a> (Senate, 3) · <a href="congress-sheri-biggs.html">Sheri Biggs</a> (House, 2) · <a href="congress-thomas-kean.html">Thomas Kean</a> (House, 2) · <a href="congress-john-boozman.html">John Boozman</a> (Senate, 2) · <a href="congress-cory-booker.html">Cory Booker</a> (Senate, 2) · <a href="congress-sheldon-whitehouse.html">Sheldon Whitehouse</a> (Senate, 2) · <a href="congress-shelley-capito.html">Shelley Capito</a> (Senate, 2) · <a href="congress-richard-allen.html">Richard Allen</a> (House, 1) · <a href="congress-mitch-mcconnell.html">Mitch McConnell</a> (Senate, 1) · <a href="congress-angus-king.html">Angus King</a> (Senate, 1) · <a href="congress-brandon-gill.html">Brandon Gill</a> (House, 1)</p>
 <h2>Files</h2>
 <p><a href="congress-trades-90d.csv">congress-trades-90d.csv</a> — one row per disclosed trade: ticker, side, transaction date, disclosure date, lag in days, amount range, range midpoint, member, chamber, merged member key, official filing link.<br>
 <a href="congress-by-ticker-90d.json">congress-by-ticker-90d.json</a> — the per-ticker summary above, all 60 tickers.</p>
