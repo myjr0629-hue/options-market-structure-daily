@@ -1,198 +1,879 @@
 ticker,side,transactionDate,disclosureDate,lagDays,amountRange,amountMid,person,chamber,member_key,link
-BNS,buy,2026-09-01,2026-09-23,22,"$500,001 - $1,000,000",750001,Sheri Biggs,house,house:sheri biggs,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf
-BNS,sell,2026-08-19,2026-09-23,35,"$500,001 - $1,000,000",750001,Sheri Biggs,house,house:sheri biggs,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf
+AMGN,buy,2026-09-22,2026-10-02,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf
+NFLX,buy,2026-09-14,2026-10-02,18,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf
+MPC,sell,2026-09-22,2026-10-02,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf
+MPC,sell,2026-09-22,2026-10-02,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf
+MSFT,buy,2026-09-10,2026-10-02,22,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf
+MSFT,buy,2026-09-10,2026-10-02,22,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf
+GOOGL,buy,2026-09-14,2026-10-02,18,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf
+AAPL,buy,2026-09-08,2026-10-02,24,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf
+HD,buy,2026-09-22,2026-10-02,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf
+HD,buy,2026-09-22,2026-10-02,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf
+V,sell,2026-09-04,2026-09-30,26,"$1,001 - $15,000",8001,Sheldon Whitehouse,senate,senate:sheldon whitehouse,https://efdsearch.senate.gov/search/view/ptr/6bf3b6f7-9e1b-499a-bd5a-990292ce2e72/
+V,sell,2026-09-04,2026-09-30,26,"$1,001 - $15,000",8001,Sheldon Whitehouse,senate,senate:sheldon whitehouse,https://efdsearch.senate.gov/search/view/ptr/6bf3b6f7-9e1b-499a-bd5a-990292ce2e72/
+F,sell,2026-08-31,2026-09-28,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+KO,buy,2026-08-31,2026-09-28,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+NVO,sell,2026-08-31,2026-09-28,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+NVO,sell,2026-09-10,2026-09-28,18,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+SBUX,sell,2026-09-02,2026-09-28,26,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+LOW,sell,2026-09-02,2026-09-28,26,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ETV,sell,2026-09-08,2026-09-28,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+STX,sell,2026-09-15,2026-09-28,13,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+EA,sell,2026-08-05,2026-09-28,54,"$1,001 - $15,000",8001,Harold Dallas Rogers,house,house:harold rogers,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116342.pdf
+CSX,sell,2026-08-27,2026-09-28,32,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CSX,sell,2026-08-31,2026-09-28,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CL,sell,2026-08-27,2026-09-28,32,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CL,sell,2026-08-31,2026-09-28,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CL,sell,2026-09-02,2026-09-28,26,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+VUZI,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+VUZI,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+VUZI,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+WMT,sell,2026-08-27,2026-09-28,32,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HON,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+NVS,sell,2026-08-27,2026-09-28,32,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+PBA,sell,2026-08-27,2026-09-28,32,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+PRGS,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+RA,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CNP,sell,2026-09-15,2026-09-28,13,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DHR,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DHR,sell,2026-09-02,2026-09-28,26,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ETN,sell,2026-09-10,2026-09-28,18,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+UNH,sell,2026-09-10,2026-09-28,18,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+IQV,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+IQV,sell,2026-09-08,2026-09-28,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+IQV,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+EMR,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+EMR,sell,2026-09-14,2026-09-28,14,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+NEE,sell,2026-09-02,2026-09-28,26,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+NEE,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CB,buy,2026-08-31,2026-09-28,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+LIN,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+LIN,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ORLY,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ORLY,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+LMT,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+LMT,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CDNS,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CDNS,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+STE,sell,2026-09-15,2026-09-28,13,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+AIO,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+AIO,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+AIO,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CR,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+CR,sell,2026-08-31,2026-09-28,28,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+OKE,sell,2026-08-31,2026-09-28,28,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+OKE,sell,2026-09-04,2026-09-28,24,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+TJX,sell,2026-08-27,2026-09-28,32,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+TJX,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+TJX,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+TJX,sell,2026-09-15,2026-09-28,13,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ROK,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ROK,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ROK,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ROK,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+PTC,sell,2026-08-31,2026-09-28,28,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+PTC,sell,2026-09-09,2026-09-28,19,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ITW,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ITW,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ITW,sell,2026-09-04,2026-09-28,24,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+ITW,sell,2026-09-09,2026-09-28,19,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+MRSH,sell,2026-09-02,2026-09-28,26,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+MRSH,sell,2026-09-09,2026-09-28,19,"$100,001 - $250,000",175001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+MRSH,sell,2026-09-14,2026-09-28,14,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-09-03,2026-09-28,25,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-09-04,2026-09-28,24,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+BSX,sell,2026-09-09,2026-09-28,19,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+XOM,sell,2026-08-31,2026-09-28,28,"$100,001 - $250,000",175001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+AAPL,sell,2026-09-08,2026-09-28,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+AAPL,sell,2026-09-08,2026-09-28,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+AAPL,sell,2026-09-08,2026-09-28,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HD,sell,2026-08-27,2026-09-28,32,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HD,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HD,sell,2026-09-02,2026-09-28,26,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HD,sell,2026-09-10,2026-09-28,18,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HD,sell,2026-09-14,2026-09-28,14,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+HD,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DVN,sell,2026-08-31,2026-09-28,28,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DVN,sell,2026-08-31,2026-09-28,28,"$100,001 - $250,000",175001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DVN,sell,2026-09-02,2026-09-28,26,"$100,001 - $250,000",175001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DVN,sell,2026-09-04,2026-09-28,24,"$100,001 - $250,000",175001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+DVN,sell,2026-09-14,2026-09-28,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+TSM,buy,2026-08-12,2026-09-23,42,"$1,001 - $15,000",8001,Richard W. Allen,house,house:richard allen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf
+AVGO,buy,2026-08-12,2026-09-23,42,"$1,001 - $15,000",8001,Richard W. Allen,house,house:richard allen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf
 ROL,sell,2026-08-12,2026-09-23,42,"$15,001 - $50,000",32501,Richard W. Allen,house,house:richard allen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf
+BNS,sell,2026-08-19,2026-09-23,35,"$500,001 - $1,000,000",750001,Sheri Biggs,house,house:sheri biggs,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf
+BNS,buy,2026-09-01,2026-09-23,22,"$500,001 - $1,000,000",750001,Sheri Biggs,house,house:sheri biggs,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf
 AAPL,sell,2026-09-22,2026-09-23,1,"$100,001 - $250,000",175001,Pete Sessions,house,house:pete sessions,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf
 ABBV,sell,2026-09-14,2026-09-21,7,"$15,001 - $50,000",32501,Pete Sessions,house,house:pete sessions,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf
-WFC,buy,2026-09-01,2026-09-21,20,"$15,001 - $50,000",32501,Mitch McConnell,senate,senate:mitch mcconnell,https://efdsearch.senate.gov/search/view/ptr/028aef33-dc0d-44a1-992f-aa35ee42685b/
 GOOGL,sell,2026-09-14,2026-09-21,7,"$15,001 - $50,000",32501,Pete Sessions,house,house:pete sessions,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf
-PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+WFC-PY,buy,2026-09-01,2026-09-20,19,"$15,001 - $50,000",32501,Mitch McConnell,senate,senate:mitch mcconnell,https://efdsearch.senate.gov/search/view/ptr/028aef33-dc0d-44a1-992f-aa35ee42685b/
+NVO,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+NVO,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+ACN,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+ACN,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+ACN,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+LALDX,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+LALDX,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+IBP,buy,2026-09-08,2026-09-18,10,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf
+IBP,buy,2026-09-08,2026-09-18,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf
+JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
 JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-JPM,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-GOOGL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+PEP,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+MCD,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+MCD,buy,2026-08-26,2026-09-18,23,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+PG,buy,2026-09-08,2026-09-18,10,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf
+GOOGL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
 GOOGL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
 GOOGL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-GOOGL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+GOOGL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
 AAPL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
 AAPL,sell,2026-08-20,2026-09-18,29,"$1,001 - $15,000",8001,Scott Mr Franklin,house,house:scott franklin,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
-WMB,buy,2026-08-20,2026-09-17,28,"$15,001 - $50,000",32501,Alan Armstrong,senate,senate:alan armstrong,https://efdsearch.senate.gov/search/view/ptr/b999bc0e-3eb0-4ca9-ab07-8e8f2e04b41f/
-WMB,buy,2026-08-19,2026-09-17,29,"$1,001 - $15,000",8001,Alan Armstrong,senate,senate:alan armstrong,https://efdsearch.senate.gov/search/view/ptr/b999bc0e-3eb0-4ca9-ab07-8e8f2e04b41f/
-EA,sell,2026-08-04,2026-09-17,44,"$1,001 - $15,000",8001,Alan Armstrong,senate,senate:alan armstrong,https://efdsearch.senate.gov/search/view/ptr/b999bc0e-3eb0-4ca9-ab07-8e8f2e04b41f/
-MSFT,buy,2026-08-14,2026-09-15,32,"$500,001 - $1,000,000",750001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
-MSFT,sell,2026-08-14,2026-09-15,32,"$250,001 - $500,000",375001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+HWM,sell,2026-08-11,2026-09-16,36,"$1,001 - $15,000",8001,Byron Donalds,house,house:byron donalds,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+HWM,sell,2026-08-11,2026-09-16,36,"$1,001 - $15,000",8001,Byron Donalds,house,house:byron donalds,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+PH,sell,2026-08-11,2026-09-16,36,"$1,001 - $15,000",8001,Byron Donalds,house,house:byron donalds,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+PH,sell,2026-08-11,2026-09-16,36,"$1,001 - $15,000",8001,Byron Donalds,house,house:byron donalds,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+NFLX,buy,2026-08-12,2026-09-16,35,"$1,001 - $15,000",8001,Byron Donalds,house,house:byron donalds,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+NFLX,buy,2026-08-12,2026-09-16,35,"$1,001 - $15,000",8001,Byron Donalds,house,house:byron donalds,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+QSR,buy,2026-08-06,2026-09-15,40,"$1,001 - $15,000",8001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+RSG,buy,2026-08-06,2026-09-15,40,"$1,001 - $15,000",8001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+AMAT,buy,2026-08-06,2026-09-15,40,"$1,001 - $15,000",8001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
 MSFT,sell,2026-08-14,2026-09-15,32,"$500,001 - $1,000,000",750001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+MSFT,sell,2026-08-14,2026-09-15,32,"$250,001 - $500,000",375001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+MSFT,buy,2026-08-14,2026-09-15,32,"$500,001 - $1,000,000",750001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
 MSFT,buy,2026-08-14,2026-09-15,32,"$250,001 - $500,000",375001,Josh Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+AMCR,sell,2026-08-10,2026-09-14,35,"$1,001 - $15,000",8001,Thomas H. Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
+MTZ,buy,2026-08-21,2026-09-14,24,"$1,001 - $15,000",8001,Thomas H. Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
+JNJ,sell,2026-08-27,2026-09-14,18,"$1,001 - $15,000",8001,Thomas H. Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
 MSFT,sell,2026-08-27,2026-09-14,18,"$15,001 - $50,000",32501,Thomas H. Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
-EA,sell,2026-08-05,2026-09-14,40,"$15,001 - $50,000",32501,Angus King,senate,senate:angus king,https://efdsearch.senate.gov/search/view/ptr/e67c6e56-c81e-4e74-b960-849a460165e2/
+LIN,buy,2026-08-10,2026-09-14,35,"$1,001 - $15,000",8001,Thomas H. Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
 GOOGL,sell,2026-08-27,2026-09-14,18,"$1,001 - $15,000",8001,Thomas H. Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
-WWSYX,sell,2026-08-19,2026-09-11,23,"$15,001 - $50,000",32501,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/
-PWR,buy,2026-08-27,2026-09-11,15,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-STRL,sell,2026-08-07,2026-09-11,35,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-NKE,sell,2026-08-27,2026-09-11,15,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-MOG-A,buy,2026-08-07,2026-09-11,35,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-DLTR,sell,2026-08-19,2026-09-11,23,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-ETN,buy,2026-08-27,2026-09-11,15,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-GMED,buy,2026-08-19,2026-09-11,23,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-MSFT,buy,2026-08-18,2026-09-11,24,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+DCO,sell,2026-08-07,2026-09-11,35,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+AMD,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+TYL,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+DASH,sell,2026-08-28,2026-09-11,14,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+APG,buy,2026-08-04,2026-09-11,38,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+NXPI,sell,2026-08-05,2026-09-11,37,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+SNOW,buy,2026-08-07,2026-09-11,35,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+NEO,buy,2026-08-07,2026-09-11,35,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+TXRH,sell,2026-08-11,2026-09-11,31,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+SHAK,buy,2026-08-11,2026-09-11,31,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+NET,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+PODD,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+VRSK,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+GDDY,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+APP,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+COHR,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+COIN,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+KMX,buy,2026-08-19,2026-09-11,23,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+CDW,buy,2026-08-19,2026-09-11,23,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+CSGP,buy,2026-08-19,2026-09-11,23,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+FSV,buy,2026-08-19,2026-09-11,23,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+ATRC,buy,2026-08-20,2026-09-11,22,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+AGIO,buy,2026-08-20,2026-09-11,22,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+META,sell,2026-08-20,2026-09-11,22,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+WPM,buy,2026-08-26,2026-09-11,16,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+GS,buy,2026-08-26,2026-09-11,16,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+HLI,buy,2026-08-07,2026-09-11,35,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+WDAY,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+TSLA,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+HMN,buy,2026-08-20,2026-09-11,22,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+AORT,buy,2026-08-20,2026-09-11,22,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+PHR,sell,2026-08-25,2026-09-11,17,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+PHR,sell,2026-08-26,2026-09-11,16,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+TTD,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+CRWD,buy,2026-08-07,2026-09-11,35,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+APH,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+INTU,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
 EA,sell,2026-08-05,2026-09-11,37,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+WMT,buy,2026-08-26,2026-09-11,16,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+CCI,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+MOG-A,buy,2026-08-07,2026-09-11,35,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+STRL,sell,2026-08-07,2026-09-11,35,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
 NVDA,sell,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-LAMR,sell,2026-08-24,2026-09-11,18,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-LAMR,sell,2026-08-25,2026-09-11,17,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+DLTR,sell,2026-08-19,2026-09-11,23,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+GMED,buy,2026-08-19,2026-09-11,23,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+NKE,sell,2026-08-27,2026-09-11,15,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+PWR,buy,2026-08-27,2026-09-11,15,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+ETN,buy,2026-08-27,2026-09-11,15,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+IBM,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+MSFT,buy,2026-08-18,2026-09-11,24,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
 LAMR,sell,2026-08-19,2026-09-11,23,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
 LAMR,sell,2026-08-20,2026-09-11,22,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
-GS,buy,2026-08-26,2026-09-11,16,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+LAMR,sell,2026-08-24,2026-09-11,18,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+LAMR,sell,2026-08-25,2026-09-11,17,"$15,001 - $50,000",32501,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+BSX,buy,2026-08-18,2026-09-11,24,"$1,001 - $15,000",8001,Gilbert Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+MRNA,sell,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRNA,buy,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRNA,sell,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRNA,buy,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+SPCX,buy,2026-08-12,2026-09-10,29,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+IJR,buy,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/0632f542-7ac2-46e4-bd9c-603e3673f0cd/
+AVUV,buy,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/0632f542-7ac2-46e4-bd9c-603e3673f0cd/
+IVV,sell,2026-08-27,2026-09-10,14,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/
+OTIS,buy,2026-08-27,2026-09-10,14,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/0632f542-7ac2-46e4-bd9c-603e3673f0cd/
+QCOM,sell,2026-08-12,2026-09-10,29,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+QCOM,sell,2026-08-12,2026-09-10,29,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+QCOM,sell,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+ESE,buy,2026-08-20,2026-09-10,21,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+ESE,buy,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+ESE,sell,2026-08-25,2026-09-10,16,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TDY,sell,2026-08-20,2026-09-10,21,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TDY,sell,2026-08-20,2026-09-10,21,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TDY,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TDY,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+JNJ,sell,2026-08-20,2026-09-10,21,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/6298991b-e48f-4b11-9bbb-dfc94a7e1b32/
+LH,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LH,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LH,sell,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LH,sell,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LH,sell,2026-08-07,2026-09-10,34,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LH,sell,2026-08-07,2026-09-10,34,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+IBM,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+IBM,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+IBM,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+IBM,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+CB,sell,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
 CB,sell,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
 TSCO,sell,2026-08-12,2026-09-10,29,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TSCO,sell,2026-08-12,2026-09-10,29,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 TSCO,sell,2026-08-25,2026-09-10,16,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-TDY,sell,2026-08-20,2026-09-10,21,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-TDY,sell,2026-08-21,2026-09-10,20,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-TDY,sell,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-TDY,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-TDY,sell,2026-08-25,2026-09-10,16,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MIDD,sell,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MIDD,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MIDD,sell,2026-08-10,2026-09-10,31,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MIDD,sell,2026-08-25,2026-09-10,16,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MIDD,sell,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MIDD,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-FLT,sell,2026-08-06,2026-09-10,35,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-FLT,sell,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-FLT,sell,2026-08-07,2026-09-10,34,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 RYT,buy,2026-08-13,2026-09-10,28,"$50,001 - $100,000",75001,Brandon Gill,house,house:brandon gill,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035410.pdf
 PKG,sell,2026-08-25,2026-09-10,16,"$50,001 - $100,000",75001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+BRK-B,buy,2026-08-07,2026-09-10,34,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+BRK-B,buy,2026-08-07,2026-09-10,34,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
 CLH,sell,2026-08-25,2026-09-10,16,"$50,001 - $100,000",75001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+CHRW,buy,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+CHRW,buy,2026-08-14,2026-09-10,27,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-10,2026-09-10,31,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-10,2026-09-10,31,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-25,2026-09-10,16,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MIDD,sell,2026-08-25,2026-09-10,16,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+BWXT,buy,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+BWXT,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+FLT,sell,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+FLT,sell,2026-08-06,2026-09-10,35,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+FLT,sell,2026-08-07,2026-09-10,34,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 SCI,sell,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-SCI,sell,2026-08-25,2026-09-10,16,"$50,001 - $100,000",75001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 SCI,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
-MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
-MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
-FWONK,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-FWONK,buy,2026-08-07,2026-09-10,34,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-FWONK,buy,2026-08-03,2026-09-10,38,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+SCI,sell,2026-08-25,2026-09-10,16,"$50,001 - $100,000",75001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+EME,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+ENTG,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 FWONK,buy,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-ROL,sell,2026-08-25,2026-09-10,16,"$50,001 - $100,000",75001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-HUBB,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-HUBB,buy,2026-08-14,2026-09-10,27,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-HUBB,buy,2026-08-18,2026-09-10,23,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-HUBB,buy,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-HUBB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LTH,buy,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+FWONK,buy,2026-08-24,2026-09-10,17,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+CNM,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+BRO,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+SIG,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TRMB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LYV,sell,2026-08-14,2026-09-10,27,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LYV,sell,2026-08-14,2026-09-10,27,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LYV,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+WAB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+MRK,buy,2026-08-19,2026-09-10,22,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+LTH,buy,2026-08-03,2026-09-10,38,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LTH,buy,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 LTH,buy,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 LTH,buy,2026-08-07,2026-09-10,34,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LTH,buy,2026-08-03,2026-09-10,38,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 LTH,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-CHRW,buy,2026-08-03,2026-09-10,38,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-CHRW,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-CHRW,buy,2026-08-12,2026-09-10,29,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-CHRW,buy,2026-08-14,2026-09-10,27,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-CHRW,buy,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-EME,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-BWXT,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-BWXT,buy,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MKL,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-PAYX,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-TRMB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-SIG,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+LTH,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+HUBB,buy,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+HUBB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+HUBB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 TDG,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-CNM,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-SGI,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-BRO,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-ENTG,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-STE,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-NDAQ,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LYV,sell,2026-08-17,2026-09-10,24,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LYV,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LYV,sell,2026-08-14,2026-09-10,27,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LH,sell,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LH,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LH,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-LH,sell,2026-08-07,2026-09-10,34,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-WAB,sell,2026-08-03,2026-09-10,38,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-WAB,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+TDG,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+VIK,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+VIK,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+VIK,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 VIK,sell,2026-08-06,2026-09-10,35,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 VIK,sell,2026-08-24,2026-09-10,17,"$15,001 - $50,000",32501,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-VIK,sell,2026-08-03,2026-09-10,38,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 VIK,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-VIK,sell,2026-08-05,2026-09-10,36,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-VIK,sell,2026-08-04,2026-09-10,37,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-ITT,sell,2026-08-25,2026-09-10,16,"$250,001 - $500,000",375001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+VIK,sell,2026-08-25,2026-09-10,16,"$100,001 - $250,000",175001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
 MLM,sell,2026-08-25,2026-09-10,16,"$250,001 - $500,000",375001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-MLM,buy,2026-08-19,2026-09-10,22,"$1,001 - $15,000",8001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
-NVDA,sell,2026-08-11,2026-09-09,29,"$15,001 - $50,000",32501,Cory Booker,senate,senate:cory booker,https://efdsearch.senate.gov/search/view/ptr/e5144197-e49c-4f74-bec4-19f1f3124668/
-AMZN,sell,2026-08-11,2026-09-09,29,"$100,001 - $250,000",175001,Cory Booker,senate,senate:cory booker,https://efdsearch.senate.gov/search/view/ptr/e5144197-e49c-4f74-bec4-19f1f3124668/
+MLM,sell,2026-08-25,2026-09-10,16,"$250,001 - $500,000",375001,April Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+PG,buy,2026-08-17,2026-09-09,23,"$1,001 - $15,000",8001,Lloyd Doggett,house,house:lloyd doggett,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035401.pdf
+MCD,sell,2026-08-11,2026-09-08,28,"$15,001 - $50,000",32501,Cory Booker,senate,senate:cory booker,https://efdsearch.senate.gov/search/view/ptr/e5144197-e49c-4f74-bec4-19f1f3124668/
+ZTS,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+TMO,buy,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CHTR,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MDB,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FCX,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+BLDR,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CRH,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+TTWO,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+LEN,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+APO,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+UPST,sell,2026-08-14,2026-09-07,24,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
+FITB,buy,2026-08-26,2026-09-07,12,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+DCO,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+AMD,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+DASH,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+F,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+AMGN,sell,2026-08-26,2026-09-07,12,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+SF,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+COCO,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+BCPC,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+ABCB,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+BCRX,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+MTX,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+NHI,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+HQY,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+IRT,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+RBC,sell,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+USPH,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+SPXC,sell,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PCVX,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+CSW,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+COMP,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+MTSI,sell,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+VZ,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PGR,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PSKY,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+UBER,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+WDC,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+CMCSA,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+STZ,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+LITE,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+DD,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+VIAV,sell,2026-07-21,2026-09-07,48,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+GBCI,buy,2026-07-21,2026-09-07,48,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PRAX,buy,2026-07-30,2026-09-07,39,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+AMRZ,buy,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+Q,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+LII,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+ISRG,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+LVS,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CTSH,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FISV,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+VMC,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+AFL,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FSLR,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FTNT,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+AMT,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+TMUS,sell,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+TMUS,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MCHP,buy,2026-08-10,2026-09-07,28,"$50,001 - $100,000",75001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MCHP,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+TT,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MO,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FDS,sell,2026-08-19,2026-09-07,19,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+AEP,buy,2026-08-26,2026-09-07,12,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+VRTX,sell,2026-08-26,2026-09-07,12,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+NXPI,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+APP,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+APP,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+COIN,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+COIN,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+META,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+LOW,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+ACN,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+ACN,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+SKWD,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+SKWD,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+EPAC,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+EPAC,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PLTR,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+KVUE,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+SAIL,buy,2026-07-21,2026-09-07,48,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+SMTC,sell,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+SMTC,sell,2026-07-21,2026-09-07,48,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+FDX,sell,2026-07-21,2026-09-07,48,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PINS,sell,2026-08-04,2026-09-07,34,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MODG,sell,2026-08-04,2026-09-07,34,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FERG,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+FERG,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+UPS,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MCK,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+GILD,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+QCOM,sell,2026-08-10,2026-09-07,28,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+QCOM,buy,2026-08-24,2026-09-07,14,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+HLI,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+TSLA,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+HMN,buy,2026-07-10,2026-09-07,59,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+AORT,buy,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+TTD,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+TTD,sell,2026-08-14,2026-09-07,24,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
+MBGL,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CRWD,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+EA,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+CRM,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CRM,buy,2026-08-14,2026-09-07,24,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
+JNJ,sell,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+AVGO,buy,2026-08-26,2026-09-07,12,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+SFM,buy,2026-07-16,2026-09-07,53,"$15,001 - $50,000",32501,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+ALKS,buy,2026-07-30,2026-09-07,39,"$15,001 - $50,000",32501,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+CRNX,sell,2026-07-30,2026-09-07,39,"$15,001 - $50,000",32501,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
 MSB,buy,2026-07-31,2026-09-07,38,"$15,001 - $50,000",32501,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+CNC,sell,2026-08-10,2026-09-07,28,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+HUBS,buy,2026-08-14,2026-09-07,24,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
+NVDA,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+PEP,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+FN,sell,2026-07-16,2026-09-07,53,"$15,001 - $50,000",32501,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+NKE,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+PWR,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+ETN,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+IBM,sell,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+IBM,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MRVL,buy,2026-07-17,2026-09-07,52,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+MRVL,buy,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MSFT,buy,2026-07-17,2026-09-07,52,"$15,001 - $50,000",32501,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+MSFT,buy,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MSFT,sell,2026-08-26,2026-09-07,12,"$1,001 - $15,000",8001,David Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+ADBE,sell,2026-07-24,2026-09-07,45,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+ADBE,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+BLK,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+NOW,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+NOW,buy,2026-08-14,2026-09-07,24,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
+MCD,sell,2026-08-10,2026-09-07,28,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CDNS,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+TSCO,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+SCHO,sell,2026-08-14,2026-09-07,24,"$50,001 - $100,000",75001,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
 WFC,buy,2026-08-18,2026-09-07,20,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+WFC,buy,2026-08-27,2026-09-07,11,"$50,001 - $100,000",75001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+CARR,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+T,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+LAMR,sell,2026-07-16,2026-09-07,53,"$1,001 - $15,000",8001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+GOOGL,sell,2026-08-07,2026-09-07,31,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+BNS,buy,2026-08-27,2026-09-07,11,"$50,001 - $100,000",75001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
 BNS,buy,2026-08-27,2026-09-07,11,"$50,001 - $100,000",75001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
 EME,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
 BABA,sell,2026-07-24,2026-09-07,45,"$100,001 - $250,000",175001,Gilbert Ray Cisneros,house,house:gilbert cisneros,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+ITW,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+BSX,buy,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+MRK,buy,2026-08-07,2026-09-07,31,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
 MLM,sell,2026-08-10,2026-09-07,28,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
-NVDA,sell,2026-08-13,2026-09-02,20,"$15,001 - $50,000",32501,Sheldon Whitehouse,senate,senate:sheldon whitehouse,https://efdsearch.senate.gov/search/view/ptr/f8d003c0-ca1e-4c39-9d66-632d220180e1/
-NVDA,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Sheldon Whitehouse,senate,senate:sheldon whitehouse,https://efdsearch.senate.gov/search/view/ptr/f8d003c0-ca1e-4c39-9d66-632d220180e1/
-TKNO,sell,2026-08-06,2026-09-01,26,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,buy,2026-08-10,2026-09-01,22,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-12,2026-09-01,20,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-23,2026-09-01,40,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-11,2026-09-01,21,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+VSAT,sell,2026-08-28,2026-09-04,7,"$1,001 - $15,000",8001,Jonathan Jackson,house,house:jonathan jackson,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035370.pdf
+EQIX,buy,2026-08-07,2026-09-03,27,"$1,001 - $15,000",8001,Michael Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf
+EQIX,buy,2026-08-07,2026-09-03,27,"$1,001 - $15,000",8001,Michael A. Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf
+ALL,sell,2026-08-12,2026-09-03,22,"$1,001 - $15,000",8001,Michael Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf
+ALL,sell,2026-08-12,2026-09-03,22,"$1,001 - $15,000",8001,Michael A. Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf
+NVDA,buy,2026-08-18,2026-09-03,16,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf
+AAPL,buy,2026-08-13,2026-09-03,21,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035345.pdf
+AAPL,sell,2026-08-18,2026-09-03,16,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf
+ALC,sell,2026-08-05,2026-09-02,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+GAP,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+HRL,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+BUD,sell,2026-08-18,2026-09-02,15,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+BIIB,sell,2026-08-18,2026-09-02,15,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+KMB,sell,2026-08-18,2026-09-02,15,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+OTIS,sell,2026-08-10,2026-09-02,23,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+LOW,sell,2026-08-24,2026-09-02,9,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+SOLS,sell,2026-08-05,2026-09-02,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+WAT,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+WAT,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+VLTO,sell,2026-08-10,2026-09-02,23,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+VLTO,sell,2026-08-14,2026-09-02,19,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+VLTO,sell,2026-08-21,2026-09-02,12,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+ICLR,sell,2026-08-14,2026-09-02,19,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+HONA,sell,2026-08-19,2026-09-02,14,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+DIS,sell,2026-08-10,2026-09-02,23,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+BA,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+BA,sell,2026-08-13,2026-09-02,20,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+MDT,sell,2026-08-24,2026-09-02,9,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+NKE,sell,2026-08-13,2026-09-02,20,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+MSFT,sell,2026-08-21,2026-09-02,12,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+ADBE,sell,2026-08-14,2026-09-02,19,"$15,001 - $50,000",32501,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+PG,sell,2026-08-05,2026-09-02,28,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+PG,sell,2026-08-24,2026-09-02,9,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+CARR,sell,2026-08-14,2026-09-02,19,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+MRSH,sell,2026-08-24,2026-09-02,9,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+HD,sell,2026-08-24,2026-09-02,9,"$50,001 - $100,000",75001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
 TKNO,sell,2026-07-20,2026-09-01,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-07-20,2026-09-01,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-04,2026-09-01,28,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-11,2026-09-01,21,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-20,2026-09-01,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-07-21,2026-09-01,42,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-22,2026-09-01,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-22,2026-09-01,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-22,2026-09-01,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-23,2026-09-01,40,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-07-28,2026-09-01,35,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-07-29,2026-09-01,34,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-07,2026-09-01,25,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-22,2026-09-01,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-07-29,2026-09-01,34,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-29,2026-09-01,34,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-30,2026-09-01,33,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-30,2026-09-01,33,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-07-30,2026-09-01,33,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-04,2026-09-01,28,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-08-05,2026-09-01,27,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-24,2026-09-01,39,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-08-05,2026-09-01,27,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-10,2026-09-01,22,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-03,2026-09-01,29,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-29,2026-09-01,34,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-20,2026-09-01,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-05,2026-09-01,27,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-08-06,2026-09-01,26,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-06,2026-09-01,26,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-07,2026-09-01,25,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TKNO,sell,2026-08-07,2026-09-01,25,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-30,2026-09-01,33,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-22,2026-09-01,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-22,2026-09-01,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-30,2026-09-01,33,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-07-30,2026-09-01,33,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TKNO,sell,2026-08-05,2026-09-01,27,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-TIC,sell,2026-08-11,2026-09-01,21,"$500,001 - $1,000,000",750001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-10,2026-09-01,22,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,buy,2026-08-10,2026-09-01,22,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-11,2026-09-01,21,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-11,2026-09-01,21,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+TKNO,sell,2026-08-12,2026-09-01,20,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
 TIC,sell,2026-08-11,2026-09-01,21,"$250,001 - $500,000",375001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
-GS,buy,2026-08-10,2026-08-27,17,"$250,001 - $500,000",375001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-04,2026-08-27,23,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-04,2026-08-27,23,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-05,2026-08-27,22,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-04,2026-08-27,23,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-05,2026-08-27,22,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-03,2026-08-27,24,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-12,2026-08-27,15,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-05,2026-08-27,22,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-12,2026-08-27,15,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-10,2026-08-27,17,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-12,2026-08-27,15,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-17,2026-08-27,10,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-07-28,2026-08-27,30,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-19,2026-08-27,8,"$50,001 - $100,000",75001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-18,2026-08-27,9,"$250,001 - $500,000",375001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
-GS,buy,2026-08-11,2026-08-27,16,"$100,001 - $250,000",175001,David Harold McCormick,senate,senate:david mccormick,https://efdsearch.senate.gov/search/view/ptr/257795ae-e1b2-411d-b562-8fe4c2a4f2a1/
+TIC,sell,2026-08-11,2026-09-01,21,"$500,001 - $1,000,000",750001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/929216d5-5dbd-429c-858c-1e9332924627/
+GWW,sell,2026-07-13,2026-08-28,46,"$1,001 - $15,000",8001,Jared Moskowitz,house,house:jared moskowitz,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035243.pdf
+AMAT,buy,2026-07-13,2026-08-28,46,"$1,001 - $15,000",8001,Jared Moskowitz,house,house:jared moskowitz,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035243.pdf
+STE,sell,2026-07-13,2026-08-28,46,"$1,001 - $15,000",8001,Jared Moskowitz,house,house:jared moskowitz,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035243.pdf
+CVRX,sell,2026-07-08,2026-08-26,49,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+ACN,sell,2026-08-11,2026-08-26,15,"$1,001 - $15,000",8001,Kelly Morrison,house,house:kelly morrison,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+ACN,sell,2026-08-11,2026-08-26,15,"$1,001 - $15,000",8001,Kelly Morrison,house,house:kelly morrison,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+ACN,sell,2026-08-11,2026-08-26,15,"$15,001 - $50,000",32501,Kelly Morrison,house,house:kelly morrison,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+SOLS,sell,2026-08-11,2026-08-26,15,"$1,001 - $15,000",8001,Kelly Morrison,house,house:kelly morrison,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+MBGL,sell,2026-08-11,2026-08-26,15,"$1,001 - $15,000",8001,Kelly Morrison,house,house:kelly morrison,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+MBGL,sell,2026-08-11,2026-08-26,15,"$1,001 - $15,000",8001,Kelly Morrison,house,house:kelly morrison,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+GOOGL,sell,2026-08-24,2026-08-26,2,"$50,001 - $100,000",75001,Michael A. Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035309.pdf
+TKNO,sell,2026-07-08,2026-08-26,49,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-08,2026-08-26,49,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-08,2026-08-26,49,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-08,2026-08-26,49,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-08,2026-08-26,49,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-09,2026-08-26,48,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-09,2026-08-26,48,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-09,2026-08-26,48,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-09,2026-08-26,48,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-13,2026-08-26,44,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-13,2026-08-26,44,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-13,2026-08-26,44,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-13,2026-08-26,44,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-13,2026-08-26,44,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
 TKNO,sell,2026-07-14,2026-08-26,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
-TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
 TKNO,sell,2026-07-14,2026-08-26,43,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
-TKNO,sell,2026-07-10,2026-08-26,47,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
-JPM,sell,2026-07-23,2026-08-17,25,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/28e465df-caf1-4a98-8ebc-605e1e1ba99b/
+TKNO,sell,2026-07-14,2026-08-26,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-14,2026-08-26,43,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-15,2026-08-26,42,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-15,2026-08-26,42,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-15,2026-08-26,42,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-15,2026-08-26,42,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-15,2026-08-26,42,"$15,001 - $50,000",32501,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-16,2026-08-26,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-16,2026-08-26,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+TKNO,sell,2026-07-16,2026-08-26,41,"$1,001 - $15,000",8001,Richard Blumenthal,senate,senate:richard blumenthal,https://efdsearch.senate.gov/search/view/paper/ec20cd93-6702-4a29-b3a6-983f4b17f365/
+INTC,buy,2026-07-24,2026-08-24,31,"$250,001 - $500,000",375001,Nancy Pelosi,house,house:nancy pelosi,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+INTC,buy,2026-07-24,2026-08-24,31,"$500,001 - $1,000,000",750001,Nancy Pelosi,house,house:nancy pelosi,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+BE,buy,2026-07-24,2026-08-24,31,"$1,000,001 - $5,000,000",3000001,Nancy Pelosi,house,house:nancy pelosi,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+BE,buy,2026-07-24,2026-08-24,31,"$1,000,001 - $5,000,000",3000001,Nancy Pelosi,house,house:nancy pelosi,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+BE,buy,2026-07-28,2026-08-24,27,"$500,001 - $1,000,000",750001,Nancy Pelosi,house,house:nancy pelosi,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+BE,buy,2026-07-28,2026-08-24,27,"$500,001 - $1,000,000",750001,Nancy Pelosi,house,house:nancy pelosi,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+IBP,buy,2026-08-14,2026-08-21,7,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
+MSFT,sell,2026-08-11,2026-08-21,10,"$15,001 - $50,000",32501,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
+PG,buy,2026-08-11,2026-08-21,10,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
+T,sell,2026-08-14,2026-08-21,7,"$50,001 - $100,000",75001,Tim Moore,house,house:tim moore,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035291.pdf
+GOOGL,buy,2026-08-11,2026-08-21,10,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
+UPST,buy,2026-07-14,2026-08-19,36,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116308.pdf
+AMD,buy,2026-07-14,2026-08-19,36,"$1,001 - $15,000",8001,Rick W. Allen,house,house:rick allen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf
+ESAB,buy,2026-07-07,2026-08-19,43,"$1,001 - $15,000",8001,Thomas Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+EQT,buy,2026-07-07,2026-08-19,43,"$1,001 - $15,000",8001,Thomas Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+TOST,buy,2026-07-08,2026-08-19,42,"$1,001 - $15,000",8001,Thomas Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+AMZN,buy,2026-07-08,2026-08-19,42,"$1,001 - $15,000",8001,Thomas Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+SYK,sell,2026-07-22,2026-08-19,28,"$1,001 - $15,000",8001,Thomas Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+CRM,sell,2026-07-14,2026-08-19,36,"$15,001 - $50,000",32501,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116308.pdf
+AVGO,buy,2026-07-14,2026-08-19,36,"$1,001 - $15,000",8001,Rick W. Allen,house,house:rick allen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf
+ABT,sell,2026-07-14,2026-08-19,36,"$15,001 - $50,000",32501,Rick W. Allen,house,house:rick allen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf
+ADBE,sell,2026-07-14,2026-08-19,36,"$1,001 - $15,000",8001,Tony Wied,house,house:tony wied,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116308.pdf
+GOOGL,sell,2026-07-22,2026-08-19,28,"$1,001 - $15,000",8001,Thomas Kean,house,house:thomas kean,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+AAPL,buy,2026-08-13,2026-08-19,6,"$1,001 - $15,000",8001,Ed Case,house,house:ed case,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035275.pdf
+O,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+COST,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+ADI,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+LHX,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+APD,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+ADP,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+AWK,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+CSCO,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+V,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+ICE,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+WMT,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+JNJ,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+PEP,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+MDT,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+UNH,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+EMR,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+NEE,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+MSFT,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+ABT,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+BLK,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+MCD,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+PG,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+ITW,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+AAPL,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+HD,sell,2026-07-30,2026-08-17,18,"$1,001 - $15,000",8001,Rich McCormick,house,house:rich mccormick,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+CBOE,sell,2026-07-31,2026-08-16,16,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/28e465df-caf1-4a98-8ebc-605e1e1ba99b/
+APTV-PA,buy,2026-07-09,2026-08-16,38,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/4a558db2-e492-4e8f-8a28-7b703a5c8e08/
+APTV-PA,buy,2026-07-09,2026-08-16,38,"$1,001 - $15,000",8001,John Boozman,senate,senate:john boozman,https://efdsearch.senate.gov/search/view/ptr/4184cc9a-78e0-45f3-84f7-642011e6ff98/
+GDX,sell,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+VPL,buy,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+IEUR,buy,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+REGL,buy,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+XAR,buy,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+SPYG,sell,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+SHLD,sell,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+XSHQ,buy,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+GLDM,sell,2026-07-28,2026-08-14,17,"$1,001 - $15,000",8001,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+TLH,sell,2026-07-28,2026-08-14,17,"$15,001 - $50,000",32501,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+SPTI,buy,2026-07-28,2026-08-14,17,"$15,001 - $50,000",32501,Chuck Fleischmann,house,house:chuck fleischmann,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+OGN,sell,2026-08-05,2026-08-13,8,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035196.pdf
+VSNT,sell,2026-08-05,2026-08-13,8,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035196.pdf
+MU,sell,2026-07-06,2026-08-12,37,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+KR,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ZTS,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CHTR,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+MDB,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+FCX,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+BLDR,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CRH,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TTWO,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+LEN,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+APO,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TYL,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TENB,sell,2026-07-06,2026-08-12,37,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+RCL,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+IR,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CVNA,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+WY,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+SWKS,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+XYL,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+FTV,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+JCI,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TEL,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+NTRS,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+DLR,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+REGN,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PCAR,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+YUM,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+STLD,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PFE,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ARES,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+BKNG,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ULTA,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CBRE,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CPRT,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+MOS,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CART,sell,2026-07-13,2026-08-12,30,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PENN,sell,2026-07-16,2026-08-12,27,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ACI,sell,2026-07-23,2026-08-12,20,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+UBER,buy,2026-07-23,2026-08-12,20,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CMCSA,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+FTNT,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TMUS,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+MCHP,sell,2026-07-07,2026-08-12,36,"$50,001 - $100,000",75001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+OTIS,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+NXPI,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+META,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+LOW,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ACN,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ZBH,sell,2026-07-06,2026-08-12,37,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ZBH,sell,2026-07-23,2026-08-12,20,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PLTR,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+FDX,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PINS,sell,2026-07-30,2026-08-12,13,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+MODG,sell,2026-07-22,2026-08-12,21,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+GILD,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+QCOM,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+WDAY,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CHWY,buy,2026-07-13,2026-08-12,30,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CHWY,buy,2026-07-14,2026-08-12,29,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CHWY,buy,2026-07-23,2026-08-12,20,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+GEHC,buy,2026-07-06,2026-08-12,37,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+GEHC,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+GEHC,buy,2026-07-30,2026-08-12,13,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+INTU,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+INTU,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+INTU,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+BAC,buy,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ICE,buy,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CRM,sell,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+WMT,buy,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ADSK,sell,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TXN,buy,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PEP,sell,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PEP,sell,2026-07-17,2026-08-12,26,"$15,001 - $50,000",32501,Mike Kelly,house,house:mike kelly,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf
+DIS,sell,2026-07-17,2026-08-12,26,"$1,001 - $15,000",8001,Mike Kelly,house,house:mike kelly,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf
+NKE,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ROL,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ETN,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+IBM,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+MRVL,buy,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ABT,sell,2026-07-17,2026-08-12,26,"$1,001 - $15,000",8001,Mike Kelly,house,house:mike kelly,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf
+ADBE,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+BLK,sell,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+NOW,buy,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+CDNS,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+T,sell,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TJX,sell,2026-07-07,2026-08-12,36,"$15,001 - $50,000",32501,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+PTC,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+EME,buy,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+TD,buy,2026-07-16,2026-08-12,27,"$100,001 - $250,000",175001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+ITW,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+BSX,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+WAB,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+HUBB,sell,2026-07-07,2026-08-12,36,"$1,001 - $15,000",8001,Ro Khanna,house,house:ro khanna,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+MNST,buy,2026-07-17,2026-08-11,25,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+GTLS,sell,2026-07-17,2026-08-11,25,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+NICE,buy,2026-07-20,2026-08-11,22,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+GOOGM,buy,2026-07-24,2026-08-11,18,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+PANW,buy,2026-07-16,2026-08-11,26,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+PANW,sell,2026-07-31,2026-08-11,11,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035180.pdf
+DEO,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+EL,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+MDLZ,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+CMCSA,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+GOOGN,buy,2026-07-23,2026-08-11,19,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+GOOGN,buy,2026-07-24,2026-08-11,18,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+OGN,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+VSNT,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+KVUE,sell,2026-08-05,2026-08-11,6,"$1,001 - $15,000",8001,Kevin Hern,house,house:kevin hern,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+SAIL,buy,2026-07-20,2026-08-11,22,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+AMAT,buy,2026-07-15,2026-08-11,27,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035180.pdf
+CRWD,buy,2026-07-15,2026-08-11,27,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+CCI,sell,2026-07-23,2026-08-11,19,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+FN,sell,2026-07-14,2026-08-11,28,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+IBM,sell,2026-07-15,2026-08-11,27,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+IBM,sell,2026-07-16,2026-08-11,26,"$1,001 - $15,000",8001,Josh S. Gottheimer,house,house:josh gottheimer,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+BLK,sell,2026-07-10,2026-08-11,32,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035180.pdf
+BLK,sell,2026-07-14,2026-08-11,28,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035180.pdf
+CCI,sell,2026-08-06,2026-08-10,4,"$1,001 - $15,000",8001,Michael A. Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf
+CCI,sell,2026-08-06,2026-08-10,4,"$1,001 - $15,000",8001,Michael A. Rulli,house,house:michael rulli,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf
+CARR,sell,2026-07-28,2026-08-10,13,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+CARR,sell,2026-07-28,2026-08-10,13,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+CARR,sell,2026-07-28,2026-08-10,13,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+CARR,sell,2026-07-28,2026-08-10,13,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+BRK-B,buy,2026-07-28,2026-08-10,13,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+BRK-B,buy,2026-07-28,2026-08-10,13,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+BRK-B,buy,2026-07-28,2026-08-10,13,"$15,001 - $50,000",32501,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+BRK-B,buy,2026-07-28,2026-08-10,13,"$1,001 - $15,000",8001,Maria Elvira Salazar,house,house:maria salazar,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+KR,buy,2026-07-24,2026-08-07,14,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+O,buy,2026-07-23,2026-08-07,15,"$1,001 - $15,000",8001,Gary C. Peters,senate,senate:gary peters,https://efdsearch.senate.gov/search/view/ptr/328a9b36-1205-4117-bdc4-cd7c3ccbcbbc/
+FITB,sell,2026-07-24,2026-08-07,14,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+AVGO,buy,2026-07-24,2026-08-07,14,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+MPC,sell,2026-07-24,2026-08-07,14,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+MSFT,buy,2026-07-24,2026-08-07,14,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+GOOGL,buy,2026-07-17,2026-08-07,21,"$1,001 - $15,000",8001,David J. Taylor,house,house:david taylor,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+KO,sell,2026-07-21,2026-08-04,14,"$1,001 - $15,000",8001,Shelley Moore Capito,senate,senate:shelley capito,https://efdsearch.senate.gov/search/view/ptr/60c01547-0cf9-46c6-9ce6-f0102f5941f6/
+CSCO,sell,2026-07-21,2026-08-04,14,"$1,001 - $15,000",8001,Shelley Moore Capito,senate,senate:shelley capito,https://efdsearch.senate.gov/search/view/ptr/60c01547-0cf9-46c6-9ce6-f0102f5941f6/
+MKL,sell,2026-07-24,2026-08-04,11,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+MKL,sell,2026-07-27,2026-08-04,8,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+MKL,sell,2026-07-28,2026-08-04,7,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+MKL,sell,2026-07-29,2026-08-04,6,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+SGI,buy,2026-07-30,2026-08-04,5,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
 MSFT,sell,2026-07-21,2026-08-04,14,"$15,001 - $50,000",32501,Shelley Moore Capito,senate,senate:shelley capito,https://efdsearch.senate.gov/search/view/ptr/60c01547-0cf9-46c6-9ce6-f0102f5941f6/
+STE,sell,2026-07-24,2026-08-04,11,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+STE,sell,2026-07-27,2026-08-04,8,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+STE,sell,2026-07-29,2026-08-04,6,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+STE,sell,2026-07-31,2026-08-04,4,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+TSCO,sell,2026-07-27,2026-08-04,8,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CLH,sell,2026-07-24,2026-08-04,11,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CLH,sell,2026-07-27,2026-08-04,8,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CLH,sell,2026-07-28,2026-08-04,7,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CHRW,buy,2026-07-20,2026-08-04,15,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CHRW,buy,2026-07-22,2026-08-04,13,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CHRW,buy,2026-07-24,2026-08-04,11,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CHRW,buy,2026-07-27,2026-08-04,8,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CHRW,buy,2026-07-28,2026-08-04,7,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+CHRW,buy,2026-07-31,2026-08-04,4,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+BWXT,buy,2026-07-24,2026-08-04,11,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+BWXT,buy,2026-07-27,2026-08-04,8,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+BWXT,buy,2026-07-30,2026-08-04,5,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FLT,sell,2026-07-15,2026-08-04,20,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FLT,sell,2026-07-16,2026-08-04,19,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FLT,sell,2026-07-17,2026-08-04,18,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FLT,sell,2026-07-28,2026-08-04,7,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FLT,sell,2026-07-30,2026-08-04,5,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FLT,sell,2026-07-31,2026-08-04,4,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+SCI,sell,2026-07-08,2026-08-04,27,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+SCI,sell,2026-07-17,2026-08-04,18,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+SCI,sell,2026-07-20,2026-08-04,15,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+SCI,sell,2026-07-27,2026-08-04,8,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+SCI,sell,2026-07-30,2026-08-04,5,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+ENTG,buy,2026-07-08,2026-08-04,27,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+ENTG,buy,2026-07-30,2026-08-04,5,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FWONK,buy,2026-07-22,2026-08-04,13,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FWONK,buy,2026-07-23,2026-08-04,12,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FWONK,buy,2026-07-24,2026-08-04,11,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FWONK,buy,2026-07-28,2026-08-04,7,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FWONK,buy,2026-07-29,2026-08-04,6,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+FWONK,buy,2026-07-31,2026-08-04,4,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+LYV,sell,2026-07-20,2026-08-04,15,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+LYV,sell,2026-07-21,2026-08-04,14,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
 AAPL,sell,2026-07-21,2026-08-04,14,"$1,001 - $15,000",8001,Shelley Moore Capito,senate,senate:shelley capito,https://efdsearch.senate.gov/search/view/ptr/60c01547-0cf9-46c6-9ce6-f0102f5941f6/
+WAB,sell,2026-07-23,2026-08-04,12,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+WAB,sell,2026-07-28,2026-08-04,7,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+HUBB,buy,2026-07-23,2026-08-04,12,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+TDG,buy,2026-07-28,2026-08-04,7,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+VIK,sell,2026-07-23,2026-08-04,12,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+MLM,buy,2026-07-17,2026-08-04,18,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+MLM,buy,2026-07-20,2026-08-04,15,"$1,001 - $15,000",8001,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+MLM,buy,2026-07-24,2026-08-04,11,"$15,001 - $50,000",32501,April McClain Delaney,house,house:april delaney,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+INTC,sell,2026-07-21,2026-08-04,14,"$1,001 - $15,000",8001,Shelley Moore Capito,senate,senate:shelley capito,https://efdsearch.senate.gov/search/view/ptr/60c01547-0cf9-46c6-9ce6-f0102f5941f6/
+LOW,sell,2026-07-20,2026-08-02,13,"$1,001 - $15,000",8001,Sheldon Whitehouse,senate,senate:sheldon whitehouse,https://efdsearch.senate.gov/search/view/ptr/96db6e64-f7c3-4483-b0aa-af10ba2bdbbd/
+TSM,buy,2026-07-10,2026-07-31,21,"$1,001 - $15,000",8001,Cleo Fields,house,house:cleo fields,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035023.pdf
+FMAO,buy,2026-07-20,2026-07-27,7,"$1,001 - $15,000",8001,Robert E. Latta,house,house:robert latta,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035065.pdf
+ARCC,sell,2026-07-24,2026-07-27,3,"$1,001 - $15,000",8001,Pete Sessions,house,house:pete sessions,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf
+NVDA,sell,2026-07-21,2026-07-27,6,"$15,001 - $50,000",32501,Sam T. Liccardo,house,house:sam liccardo,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034736.pdf
+FMCC,buy,2026-07-14,2026-07-23,9,"$15,001 - $50,000",32501,Debbie Dingell,house,house:debbie dingell,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035048.pdf
+BAC,sell,2026-07-20,2026-07-21,1,"$1,001 - $15,000",8001,James A. Himes,house,house:james himes,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf
+XOM,sell,2026-07-20,2026-07-21,1,"$15,001 - $50,000",32501,James A. Himes,house,house:james himes,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf
+HD,sell,2026-07-20,2026-07-21,1,"$15,001 - $50,000",32501,James A. Himes,house,house:james himes,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf
+MU,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+COST,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+TMO,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+AMD,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+AMCR,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+NOK,sell,2026-07-06,2026-07-20,14,"$1,001 - $15,000",8001,Laurel Lee,house,house:laurel lee,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034694.pdf
+DE,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+ANET,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+DUK,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+FIS,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+LLY,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+HSY,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+FMC,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+MGA,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+HONAV,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+FE,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+MS,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+PANW,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+UBER,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+FTNT,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+ACN,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+UPS,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+AMAT,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+APH,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+INTU,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+CSX,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+HON,buy,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+MPC,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+NVDA,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+UNH,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+ADBE,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+GOOGL,sell,2026-07-10,2026-07-20,10,"$1,001 - $15,000",8001,Daniel Milton Newhouse,house,house:daniel newhouse,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+SPGI,sell,2026-07-08,2026-07-13,5,"$1,001 - $15,000",8001,Richard Ray Larsen,house,house:richard larsen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf
+MCK,buy,2026-07-08,2026-07-13,5,"$1,001 - $15,000",8001,Richard Ray Larsen,house,house:richard larsen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf
+APH,buy,2026-07-08,2026-07-13,5,"$1,001 - $15,000",8001,Richard Ray Larsen,house,house:richard larsen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf
+ABT,sell,2026-07-08,2026-07-13,5,"$1,001 - $15,000",8001,Richard Ray Larsen,house,house:richard larsen,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf
+BLK,sell,2026-07-07,2026-07-09,2,"$1,001 - $15,000",8001,John J. McGuire,house,house:john mcguire,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034942.pdf

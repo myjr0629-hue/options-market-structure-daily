@@ -11,7 +11,7 @@
  "@context": "https://schema.org/",
  "@type": "Dataset",
  "name": "US Congress Stock Trades — last 90 days, per ticker",
- "description": "Stock trades disclosed by members of the US Senate and House under the STOCK Act over the last 90 days (window ending 2026-09-27), folded per ticker: number of buys and sells, estimated net dollar flow from the disclosed ranges, number of distinct members (spelling variants of the same member merged), last transaction and last disclosure date. Coverage: the 60 tickers with the largest estimated net flow out of 182 with disclosures in the window; per-ticker rows are capped at 40, so totals here are a subset, not all trades. Row-level file keeps the transaction date, disclosure date, reporting lag in days, amount range and a link to the official filing. Public records compiled for research; not investment advice.",
+ "description": "Stock trades disclosed by members of the US Senate and House under the STOCK Act over the last 90 days (window ending 2026-10-03), folded per ticker: number of buys and sells, estimated net dollar flow from the disclosed ranges, number of distinct members (spelling variants of the same member merged), last transaction and last disclosure date. Coverage: complete for the window — all 356 tickers with disclosed stock trades and all 878 buys and sells by 44 members (exchanges excluded). Row-level file keeps the transaction date, disclosure date, reporting lag in days, amount range and a link to the official filing. Public records compiled for research; not investment advice.",
  "url": "https://myjr0629-hue.github.io/options-market-structure-daily/congress.html",
  "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
  "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -30,8 +30,8 @@
   "name": "SIGNUM HQ",
   "url": "https://www.signumhq.com"
  },
- "temporalCoverage": "2026-06-29/2026-09-27",
- "dateModified": "2026-09-27",
+ "temporalCoverage": "2026-07-05/2026-10-03",
+ "dateModified": "2026-10-03",
  "variableMeasured": [
   "buys",
   "sells",
@@ -69,46 +69,46 @@ a{color:var(--acc)}code{font-size:13px}
 </head>
 <body><main>
 <h1>US Congress Stock Trades — last 90 days, per ticker</h1>
-<p class="sub">Window 2026-06-29 → 2026-09-27 · 60 of 182 tickers (largest estimated net flow) · 197 trade rows (up to 40 per ticker) · updated 2026-09-27</p>
-<p class="sub"><b>Coverage:</b> this is a subset — 60 of the 182 tickers with disclosures in the window, and at most 40 filings per ticker (incomplete: TKNO). Do not read the counts as all congressional trades.</p>
+<p class="sub">Window 2026-07-05 → 2026-10-03 · 356 tickers · 878 trades · 44 members · updated 2026-10-03</p>
+<p class="sub"><b>Coverage:</b> complete for the window — every ticker with a disclosed stock trade and every buy and sell (exchanges excluded), from the filings available on 2026-10-03 (latest disclosure 2026-10-02).</p>
 <p>Members of Congress must report stock trades over $1,000 within 45 days (STOCK Act, 2012), and only as dollar ranges. This page folds the last 90 days of those reports per ticker. Two things the raw tables hide are counted separately: <b>how many different members</b> are behind the filings (one member filing 17 times is one decision), and the <b>reporting lag</b> between the trade and the disclosure.</p>
-<p>Largest net flow in this window: <b>GS</b> — 18 buys, 0 sells, estimated +$3.28M, 2 members.</p>
+<p>Largest net flow in this window: <b>BE</b> — 4 buys, 0 sells, estimated +$7.50M, 1 member.</p>
 <h2>Top 25 by estimated net flow</h2>
 <div class="wrap"><table>
 <thead><tr><th>Ticker</th><th>Buys</th><th>Sells</th><th>Net (est.)</th><th>Members</th><th>Last trade</th><th>Last disclosed</th></tr></thead>
 <tbody>
-<tr><td><b>GS</b></td><td class="num">18</td><td class="num">0</td><td class="num pos">+$3.28M</td><td class="num">2</td><td class="num">2026-08-26</td><td class="num">2026-09-11</td></tr>
+<tr><td><b>BE</b></td><td class="num">4</td><td class="num">0</td><td class="num pos">+$7.50M</td><td class="num">1</td><td class="num">2026-07-28</td><td class="num">2026-08-24</td></tr>
 <tr><td><b>TIC</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$1.13M</td><td class="num">1</td><td class="num">2026-08-11</td><td class="num">2026-09-01</td></tr>
-<tr><td><b>TKNO</b></td><td class="num">1</td><td class="num">67</td><td class="num neg">−$0.68M</td><td class="num">1+</td><td class="num">2026-08-12</td><td class="num">2026-09-01</td></tr>
-<tr><td><b>MLM</b></td><td class="num">1</td><td class="num">2</td><td class="num neg">−$0.38M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>ITT</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.38M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>VIK</b></td><td class="num">0</td><td class="num">6</td><td class="num neg">−$0.24M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>WAB</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$0.21M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>AAPL</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.20M</td><td class="num">3</td><td class="num">2026-09-22</td><td class="num">2026-09-23</td></tr>
-<tr><td><b>LH</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.20M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>LYV</b></td><td class="num">0</td><td class="num">3</td><td class="num neg">−$0.19M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>NDAQ</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>STE</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>ENTG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>BRO</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>SGI</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>CNM</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>TDG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>SIG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>INTC</b></td><td class="num">2</td><td class="num">1</td><td class="num pos">+$1.12M</td><td class="num">2</td><td class="num">2026-07-24</td><td class="num">2026-08-24</td></tr>
+<tr><td><b>MLM</b></td><td class="num">3</td><td class="num">3</td><td class="num neg">−$0.71M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TKNO</b></td><td class="num">1</td><td class="num">67</td><td class="num neg">−$0.68M</td><td class="num">1</td><td class="num">2026-08-12</td><td class="num">2026-09-01</td></tr>
+<tr><td><b>DVN</b></td><td class="num">0</td><td class="num">5</td><td class="num neg">−$0.59M</td><td class="num">1</td><td class="num">2026-09-14</td><td class="num">2026-09-28</td></tr>
+<tr><td><b>VIK</b></td><td class="num">0</td><td class="num">8</td><td class="num neg">−$0.42M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TDG</b></td><td class="num">1</td><td class="num">2</td><td class="num neg">−$0.34M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>HUBB</b></td><td class="num">2</td><td class="num">3</td><td class="num neg">−$0.32M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>LTH</b></td><td class="num">4</td><td class="num">2</td><td class="num neg">−$0.29M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>HD</b></td><td class="num">2</td><td class="num">9</td><td class="num neg">−$0.25M</td><td class="num">4</td><td class="num">2026-09-22</td><td class="num">2026-10-02</td></tr>
+<tr><td><b>MRK</b></td><td class="num">7</td><td class="num">0</td><td class="num pos">+$0.23M</td><td class="num">2</td><td class="num">2026-08-19</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>WAB</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.22M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>AAPL</b></td><td class="num">3</td><td class="num">9</td><td class="num neg">−$0.22M</td><td class="num">8</td><td class="num">2026-09-22</td><td class="num">2026-10-02</td></tr>
+<tr><td><b>XOM</b></td><td class="num">0</td><td class="num">2</td><td class="num neg">−$0.21M</td><td class="num">2</td><td class="num">2026-08-31</td><td class="num">2026-09-28</td></tr>
+<tr><td><b>LYV</b></td><td class="num">0</td><td class="num">5</td><td class="num neg">−$0.21M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>BSX</b></td><td class="num">2</td><td class="num">8</td><td class="num neg">−$0.21M</td><td class="num">3</td><td class="num">2026-09-09</td><td class="num">2026-09-28</td></tr>
+<tr><td><b>MRSH</b></td><td class="num">0</td><td class="num">4</td><td class="num neg">−$0.20M</td><td class="num">1</td><td class="num">2026-09-14</td><td class="num">2026-09-28</td></tr>
+<tr><td><b>ITW</b></td><td class="num">1</td><td class="num">6</td><td class="num neg">−$0.18M</td><td class="num">3</td><td class="num">2026-09-09</td><td class="num">2026-09-28</td></tr>
 <tr><td><b>TRMB</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>PAYX</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>MKL</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>AMZN</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-11</td><td class="num">2026-09-09</td></tr>
+<tr><td><b>SIG</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>BRO</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>CNM</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
 <tr><td><b>BABA</b></td><td class="num">0</td><td class="num">1</td><td class="num neg">−$0.18M</td><td class="num">1</td><td class="num">2026-07-24</td><td class="num">2026-09-07</td></tr>
-<tr><td><b>BWXT</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.17M</td><td class="num">1</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
-<tr><td><b>EME</b></td><td class="num">1</td><td class="num">1</td><td class="num neg">−$0.17M</td><td class="num">2</td><td class="num">2026-08-25</td><td class="num">2026-09-10</td></tr>
+<tr><td><b>TD</b></td><td class="num">1</td><td class="num">0</td><td class="num pos">+$0.18M</td><td class="num">1</td><td class="num">2026-07-16</td><td class="num">2026-08-12</td></tr>
 </tbody></table></div>
-<p class="sub">Net is estimated from the midpoints of the disclosed ranges. “+” after a member count means only the most recent 40 filings for that ticker were available.</p>
+<p class="sub">Net is estimated from the midpoints of the disclosed ranges.</p>
 <h2>By member</h2>
-<p><a href="congress-april-delaney.html">April Delaney</a> (House, 73) · <a href="congress-richard-blumenthal.html">Richard Blumenthal</a> (Senate, 42) · <a href="congress-gilbert-cisneros.html">Gilbert Cisneros</a> (House, 17) · <a href="congress-david-mccormick.html">David McCormick</a> (Senate, 17) · <a href="congress-scott-franklin.html">Scott Franklin</a> (House, 14) · <a href="congress-josh-gottheimer.html">Josh Gottheimer</a> (House, 4) · <a href="congress-maria-salazar.html">Maria Salazar</a> (House, 4) · <a href="congress-ro-khanna.html">Ro Khanna</a> (House, 4) · <a href="congress-pete-sessions.html">Pete Sessions</a> (House, 3) · <a href="congress-alan-armstrong.html">Alan Armstrong</a> (Senate, 3) · <a href="congress-sheri-biggs.html">Sheri Biggs</a> (House, 2) · <a href="congress-thomas-kean.html">Thomas Kean</a> (House, 2) · <a href="congress-john-boozman.html">John Boozman</a> (Senate, 2) · <a href="congress-cory-booker.html">Cory Booker</a> (Senate, 2) · <a href="congress-sheldon-whitehouse.html">Sheldon Whitehouse</a> (Senate, 2) · <a href="congress-shelley-capito.html">Shelley Capito</a> (Senate, 2) · <a href="congress-richard-allen.html">Richard Allen</a> (House, 1) · <a href="congress-mitch-mcconnell.html">Mitch McConnell</a> (Senate, 1) · <a href="congress-angus-king.html">Angus King</a> (Senate, 1) · <a href="congress-brandon-gill.html">Brandon Gill</a> (House, 1)</p>
+<p><a href="congress-ro-khanna.html">Ro Khanna</a> (House, 165) · <a href="congress-kevin-hern.html">Kevin Hern</a> (House, 127) · <a href="congress-april-delaney.html">April Delaney</a> (House, 119) · <a href="congress-gilbert-cisneros.html">Gilbert Cisneros</a> (House, 118) · <a href="congress-richard-blumenthal.html">Richard Blumenthal</a> (Senate, 71) · <a href="congress-daniel-newhouse.html">Daniel Newhouse</a> (House, 31) · <a href="congress-maria-salazar.html">Maria Salazar</a> (House, 30) · <a href="congress-rich-mccormick.html">Rich McCormick</a> (House, 25) · <a href="congress-david-taylor.html">David Taylor</a> (House, 24) · <a href="congress-scott-franklin.html">Scott Franklin</a> (House, 23) · <a href="congress-josh-gottheimer.html">Josh Gottheimer</a> (House, 20) · <a href="congress-thomas-kean.html">Thomas Kean</a> (House, 12) · <a href="congress-chuck-fleischmann.html">Chuck Fleischmann</a> (House, 11) · <a href="congress-tony-wied.html">Tony Wied</a> (House, 9) · <a href="congress-john-boozman.html">John Boozman</a> (Senate, 8) · <a href="congress-cleo-fields.html">Cleo Fields</a> (House, 7) · <a href="congress-michael-rulli.html">Michael Rulli</a> (House, 7) · <a href="congress-john-mcguire.html">John McGuire</a> (House, 7) · <a href="congress-byron-donalds.html">Byron Donalds</a> (House, 6) · <a href="congress-kelly-morrison.html">Kelly Morrison</a> (House, 6) · <a href="congress-nancy-pelosi.html">Nancy Pelosi</a> (House, 6) · <a href="congress-shelley-capito.html">Shelley Capito</a> (Senate, 5) · <a href="congress-pete-sessions.html">Pete Sessions</a> (House, 4) · <a href="congress-richard-larsen.html">Richard Larsen</a> (House, 4) · <a href="congress-sheldon-whitehouse.html">Sheldon Whitehouse</a> (Senate, 3) · <a href="congress-richard-allen.html">Richard Allen</a> (House, 3) · <a href="congress-jared-moskowitz.html">Jared Moskowitz</a> (House, 3) · <a href="congress-rick-allen.html">Rick Allen</a> (House, 3) · <a href="congress-mike-kelly.html">Mike Kelly</a> (House, 3) · <a href="congress-james-himes.html">James Himes</a> (House, 3) · <a href="congress-sheri-biggs.html">Sheri Biggs</a> (House, 2) · <a href="congress-harold-rogers.html">Harold Rogers</a> (House, 1) · <a href="congress-mitch-mcconnell.html">Mitch McConnell</a> (Senate, 1) · <a href="congress-brandon-gill.html">Brandon Gill</a> (House, 1) · <a href="congress-lloyd-doggett.html">Lloyd Doggett</a> (House, 1) · <a href="congress-cory-booker.html">Cory Booker</a> (Senate, 1) · <a href="congress-jonathan-jackson.html">Jonathan Jackson</a> (House, 1) · <a href="congress-tim-moore.html">Tim Moore</a> (House, 1) · <a href="congress-ed-case.html">Ed Case</a> (House, 1) · <a href="congress-gary-peters.html">Gary Peters</a> (Senate, 1) · <a href="congress-robert-latta.html">Robert Latta</a> (House, 1) · <a href="congress-sam-liccardo.html">Sam Liccardo</a> (House, 1) · <a href="congress-debbie-dingell.html">Debbie Dingell</a> (House, 1) · <a href="congress-laurel-lee.html">Laurel Lee</a> (House, 1)</p>
 <h2>Files</h2>
 <p><a href="congress-trades-90d.csv">congress-trades-90d.csv</a> — one row per disclosed trade: ticker, side, transaction date, disclosure date, lag in days, amount range, range midpoint, member, chamber, merged member key, official filing link.<br>
-<a href="congress-by-ticker-90d.json">congress-by-ticker-90d.json</a> — the per-ticker summary above, all 60 tickers.</p>
+<a href="congress-by-ticker-90d.json">congress-by-ticker-90d.json</a> — the per-ticker summary above, all 356 tickers.</p>
 <h2>Source and license</h2>
 <p>US Senate Electronic Financial Disclosures and US House Clerk periodic transaction reports, compiled by SIGNUM HQ. Data: CC BY 4.0. Public records for research and education — not investment advice, and a disclosure is a record of a past trade, not a signal of future prices.</p>
 <p>The same per-ticker view (with options flow and 13F holders next to it) is in the free SIGNUM HQ app for iOS and Android: <a href="https://signumhq.com/app?from=github_pages">signumhq.com/app</a>.</p>
