@@ -1,49 +1,163 @@
 [
  {
-  "slug": "congress-april-delaney.html",
-  "display": "April Delaney",
+  "slug": "congress-ro-khanna.html",
+  "display": "Ro Khanna",
   "chamber": "house",
-  "trades": 73
+  "trades": 518
  },
  {
-  "slug": "congress-richard-blumenthal.html",
-  "display": "Richard Blumenthal",
-  "chamber": "senate",
-  "trades": 42
+  "slug": "congress-kevin-hern.html",
+  "display": "Kevin Hern",
+  "chamber": "house",
+  "trades": 142
  },
  {
   "slug": "congress-gilbert-cisneros.html",
   "display": "Gilbert Cisneros",
   "chamber": "house",
-  "trades": 17
+  "trades": 117
  },
  {
-  "slug": "congress-david-mccormick.html",
-  "display": "David McCormick",
-  "chamber": "senate",
-  "trades": 17
- },
- {
-  "slug": "congress-scott-franklin.html",
-  "display": "Scott Franklin",
+  "slug": "congress-april-delaney.html",
+  "display": "April Delaney",
   "chamber": "house",
-  "trades": 14
+  "trades": 117
  },
  {
-  "slug": "congress-josh-gottheimer.html",
-  "display": "Josh Gottheimer",
+  "slug": "congress-michael-mccaul.html",
+  "display": "Michael McCaul",
   "chamber": "house",
-  "trades": 4
+  "trades": 69
  },
  {
   "slug": "congress-maria-salazar.html",
   "display": "Maria Salazar",
   "chamber": "house",
-  "trades": 4
+  "trades": 59
  },
  {
-  "slug": "congress-ro-khanna.html",
-  "display": "Ro Khanna",
+  "slug": "congress-richard-blumenthal.html",
+  "display": "Richard Blumenthal",
+  "chamber": "senate",
+  "trades": 35
+ },
+ {
+  "slug": "congress-david-taylor.html",
+  "display": "David Taylor",
+  "chamber": "house",
+  "trades": 27
+ },
+ {
+  "slug": "congress-rich-mccormick.html",
+  "display": "Rich McCormick",
+  "chamber": "house",
+  "trades": 26
+ },
+ {
+  "slug": "congress-scott-franklin.html",
+  "display": "Scott Franklin",
+  "chamber": "house",
+  "trades": 23
+ },
+ {
+  "slug": "congress-john-boozman.html",
+  "display": "John Boozman",
+  "chamber": "senate",
+  "trades": 15
+ },
+ {
+  "slug": "congress-josh-gottheimer.html",
+  "display": "Josh Gottheimer",
+  "chamber": "house",
+  "trades": 13
+ },
+ {
+  "slug": "congress-chuck-fleischmann.html",
+  "display": "Chuck Fleischmann",
+  "chamber": "house",
+  "trades": 11
+ },
+ {
+  "slug": "congress-tony-wied.html",
+  "display": "Tony Wied",
+  "chamber": "house",
+  "trades": 10
+ },
+ {
+  "slug": "congress-lisa-mcclain.html",
+  "display": "Lisa McClain",
+  "chamber": "house",
+  "trades": 9
+ },
+ {
+  "slug": "congress-michael-rulli.html",
+  "display": "Michael Rulli",
+  "chamber": "house",
+  "trades": 9
+ },
+ {
+  "slug": "congress-sheldon-whitehouse.html",
+  "display": "Sheldon Whitehouse",
+  "chamber": "senate",
+  "trades": 9
+ },
+ {
+  "slug": "congress-thomas-kean.html",
+  "display": "Thomas Kean",
+  "chamber": "house",
+  "trades": 8
+ },
+ {
+  "slug": "congress-cleo-fields.html",
+  "display": "Cleo Fields",
+  "chamber": "house",
+  "trades": 6
+ },
+ {
+  "slug": "congress-byron-donalds.html",
+  "display": "Byron Donalds",
+  "chamber": "house",
+  "trades": 6
+ },
+ {
+  "slug": "congress-cory-booker.html",
+  "display": "Cory Booker",
+  "chamber": "senate",
+  "trades": 6
+ },
+ {
+  "slug": "congress-kelly-morrison.html",
+  "display": "Kelly Morrison",
+  "chamber": "house",
+  "trades": 6
+ },
+ {
+  "slug": "congress-nancy-pelosi.html",
+  "display": "Nancy Pelosi",
+  "chamber": "house",
+  "trades": 6
+ },
+ {
+  "slug": "congress-rick-allen.html",
+  "display": "Rick Allen",
+  "chamber": "house",
+  "trades": 5
+ },
+ {
+  "slug": "congress-lloyd-doggett.html",
+  "display": "Lloyd Doggett",
+  "chamber": "house",
+  "trades": 5
+ },
+ {
+  "slug": "congress-shelley-capito.html",
+  "display": "Shelley Capito",
+  "chamber": "senate",
+  "trades": 5
+ },
+ {
+  "slug": "congress-rick-larsen.html",
+  "display": "Rick Larsen",
   "chamber": "house",
   "trades": 4
  },
@@ -51,12 +165,12 @@
   "slug": "congress-pete-sessions.html",
   "display": "Pete Sessions",
   "chamber": "house",
-  "trades": 3
+  "trades": 4
  },
  {
-  "slug": "congress-alan-armstrong.html",
-  "display": "Alan Armstrong",
-  "chamber": "senate",
+  "slug": "congress-john-mcguire.html",
+  "display": "John McGuire",
+  "chamber": "house",
   "trades": 3
  },
  {
@@ -66,38 +180,20 @@
   "trades": 2
  },
  {
-  "slug": "congress-thomas-kean.html",
-  "display": "Thomas Kean",
+  "slug": "congress-alan-armstrong.html",
+  "display": "Alan Armstrong",
+  "chamber": "senate",
+  "trades": 2
+ },
+ {
+  "slug": "congress-daniel-meuser.html",
+  "display": "Daniel Meuser",
   "chamber": "house",
-  "trades": 2
+  "trades": 1
  },
  {
-  "slug": "congress-john-boozman.html",
-  "display": "John Boozman",
-  "chamber": "senate",
-  "trades": 2
- },
- {
-  "slug": "congress-cory-booker.html",
-  "display": "Cory Booker",
-  "chamber": "senate",
-  "trades": 2
- },
- {
-  "slug": "congress-sheldon-whitehouse.html",
-  "display": "Sheldon Whitehouse",
-  "chamber": "senate",
-  "trades": 2
- },
- {
-  "slug": "congress-shelley-capito.html",
-  "display": "Shelley Capito",
-  "chamber": "senate",
-  "trades": 2
- },
- {
-  "slug": "congress-richard-allen.html",
-  "display": "Richard Allen",
+  "slug": "congress-harold-rogers.html",
+  "display": "Harold Rogers",
   "chamber": "house",
   "trades": 1
  },
@@ -108,14 +204,38 @@
   "trades": 1
  },
  {
-  "slug": "congress-angus-king.html",
-  "display": "Angus King",
+  "slug": "congress-brandon-gill.html",
+  "display": "Brandon Gill",
+  "chamber": "house",
+  "trades": 1
+ },
+ {
+  "slug": "congress-jonathan-jackson.html",
+  "display": "Jonathan Jackson",
+  "chamber": "house",
+  "trades": 1
+ },
+ {
+  "slug": "congress-tim-moore.html",
+  "display": "Tim Moore",
+  "chamber": "house",
+  "trades": 1
+ },
+ {
+  "slug": "congress-ed-case.html",
+  "display": "Ed Case",
+  "chamber": "house",
+  "trades": 1
+ },
+ {
+  "slug": "congress-gary-peters.html",
+  "display": "Gary Peters",
   "chamber": "senate",
   "trades": 1
  },
  {
-  "slug": "congress-brandon-gill.html",
-  "display": "Brandon Gill",
+  "slug": "congress-sam-liccardo.html",
+  "display": "Sam Liccardo",
   "chamber": "house",
   "trades": 1
  }
