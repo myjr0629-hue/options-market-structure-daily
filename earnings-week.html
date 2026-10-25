@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earnings Week Oct 26-30, 2026 — Options-Implied Moves (open dataset)</title>
+<meta name="description" content="Options-implied earnings moves for the week of Oct 26-30, 2026: ATM straddle price divided by stock price at the Oct 23 close, for 50 US companies reporting that week. CSV, CC BY 4.0. Magnitude only, not direction.">
+<link rel="canonical" href="https://myjr0629-hue.github.io/options-market-structure-daily/earnings-week.html">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org/",
+ "@type": "Dataset",
+ "name": "Earnings Week Oct 26-30, 2026 \u2014 options-implied moves",
+ "description": "For 50 US-listed companies scheduled to report earnings between 2026-10-26 and 2026-10-30: the move implied by the at-the-money straddle (call + put mid at the strike nearest the price, same strike both legs) divided by the stock price, using the closing mids of the 2026-10-23 session and the nearest expiry. Derived metrics only; magnitude of the priced-in move, not direction, not a forecast, not investment advice.",
+ "url": "https://myjr0629-hue.github.io/options-market-structure-daily/earnings-week.html",
+ "sameAs": "https://github.com/myjr0629-hue/options-market-structure-daily",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "isAccessibleForFree": true,
+ "creator": {
+  "@type": "Organization",
+  "name": "SIGNUM HQ, LLC",
+  "url": "https://signumhq.com"
+ },
+ "temporalCoverage": "2026-10-26/2026-10-30",
+ "keywords": [
+  "earnings",
+  "expected move",
+  "implied move",
+  "options",
+  "straddle",
+  "implied volatility",
+  "US stocks"
+ ],
+ "variableMeasured": [
+  "implied_move_pct"
+ ],
+ "distribution": [
+  {
+   "@type": "DataDownload",
+   "encodingFormat": "text/csv",
+   "contentUrl": "https://myjr0629-hue.github.io/options-market-structure-daily/earnings-week-2026-10-26.csv"
+  }
+ ]
+}
+</script>
+<style>
+:root{--ink:#15202b;--mute:#5b6b7a;--line:#dde3ea;--bg:#fbfcfd}
+body{font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);max-width:860px;margin:0 auto;padding:24px 16px}
+h1{font-size:1.45rem;line-height:1.3;text-wrap:balance} p,li{max-width:68ch} .mute{color:var(--mute)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;margin:12px 0} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:right}
+th:first-child,td:first-child{text-align:left} .wrap{overflow-x:auto}
+</style>
+</head>
+<body>
+<h1>Earnings week Oct 26-30, 2026: how big a move do options price in?</h1>
+<p class="mute">Priced at the 2026-10-23 close · 50 US companies reporting this week · compiled by SIGNUM HQ</p>
+<h2>What the number is</h2>
+<ul>
+<li><b>Implied move</b> = (call mid + put mid at the strike nearest the price) &divide; stock price, for the nearest listed expiry, using closing mids of the 2026-10-23 session.</li>
+<li>It is the <b>size</b> the options market is pricing, not a direction and not a forecast. The realized move can land inside or outside it.</li>
+<li>The straddle also covers the days between the report and expiry. Weekly expiries (Oct 30) sit right after the report; monthly expiries (Nov 20) include extra weeks, so those figures read larger.</li>
+</ul>
+<h2>Mega-cap reports (after the close, US time)</h2>
+<ul>
+<li><b>GOOGL</b>: Wed 10-28, ±6.1% (expiry 10-30)</li><li><b>MSFT</b>: Wed 10-28, ±5.3% (expiry 10-30)</li><li><b>INTC</b>: Thu 10-29, ±9.9% (expiry 10-30)</li><li><b>AMZN</b>: Thu 10-29, ±7.9% (expiry 10-30)</li>
+</ul>
+<h2>All 50 companies, by report date</h2>
+<div class="wrap"><table>
+<thead><tr><th>Ticker</th><th>Report date</th><th>Timing</th><th>Implied move</th><th>Expiry used</th></tr></thead>
+<tbody>
+<tr><td>VZ</td><td>Mon 10-26</td><td>before open</td><td>±4.5%</td><td>10-30 (weekly)</td></tr>
+<tr><td>WELL</td><td>Mon 10-26</td><td>after close</td><td>±6.5%</td><td>11-20 (monthly)</td></tr>
+<tr><td>PSA</td><td>Mon 10-26</td><td>after close</td><td>±5.8%</td><td>11-20 (monthly)</td></tr>
+<tr><td>PYPL</td><td>Tue 10-27</td><td>before open</td><td>±7.9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>SHW</td><td>Tue 10-27</td><td>before open</td><td>±7.6%</td><td>11-20 (monthly)</td></tr>
+<tr><td>AMT</td><td>Tue 10-27</td><td>before open</td><td>±7.3%</td><td>11-20 (monthly)</td></tr>
+<tr><td>ECL</td><td>Tue 10-27</td><td>before open</td><td>±6.5%</td><td>11-20 (monthly)</td></tr>
+<tr><td>FCX</td><td>Tue 10-27</td><td>before open</td><td>±6.4%</td><td>10-30 (weekly)</td></tr>
+<tr><td>BA</td><td>Tue 10-27</td><td>before open</td><td>±5.7%</td><td>10-30 (weekly)</td></tr>
+<tr><td>KO</td><td>Tue 10-27</td><td>before open</td><td>±3.3%</td><td>10-30 (weekly)</td></tr>
+<tr><td>ENPH</td><td>Tue 10-27</td><td>after close</td><td>±13.3%</td><td>10-30 (weekly)</td></tr>
+<tr><td>HOOD</td><td>Tue 10-27</td><td>after close</td><td>±10.2%</td><td>10-30 (weekly)</td></tr>
+<tr><td>TER</td><td>Tue 10-27</td><td>n/a</td><td>±13%</td><td>10-30 (weekly)</td></tr>
+<tr><td>SOFI</td><td>Tue 10-27</td><td>n/a</td><td>±9.8%</td><td>10-30 (weekly)</td></tr>
+<tr><td>UPS</td><td>Tue 10-27</td><td>n/a</td><td>±6.4%</td><td>10-30 (weekly)</td></tr>
+<tr><td>V</td><td>Tue 10-27</td><td>n/a</td><td>±3.5%</td><td>10-30 (weekly)</td></tr>
+<tr><td>GOOGL</td><td>Wed 10-28</td><td>after close</td><td>±6.1%</td><td>10-30 (weekly)</td></tr>
+<tr><td>MSFT</td><td>Wed 10-28</td><td>after close</td><td>±5.3%</td><td>10-30 (weekly)</td></tr>
+<tr><td>FTNT</td><td>Wed 10-28</td><td>n/a</td><td>±11.9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>VRT</td><td>Wed 10-28</td><td>n/a</td><td>±11%</td><td>10-30 (weekly)</td></tr>
+<tr><td>NOW</td><td>Wed 10-28</td><td>n/a</td><td>±10.2%</td><td>10-30 (weekly)</td></tr>
+<tr><td>KLAC</td><td>Wed 10-28</td><td>n/a</td><td>±9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>EQIX</td><td>Wed 10-28</td><td>n/a</td><td>±8.5%</td><td>11-20 (monthly)</td></tr>
+<tr><td>GEV</td><td>Wed 10-28</td><td>n/a</td><td>±7.9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>VKTX</td><td>Wed 10-28</td><td>n/a</td><td>±7.9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>TMUS</td><td>Wed 10-28</td><td>n/a</td><td>±6.1%</td><td>10-30 (weekly)</td></tr>
+<tr><td>VICI</td><td>Wed 10-28</td><td>n/a</td><td>±5.6%</td><td>11-20 (monthly)</td></tr>
+<tr><td>PSX</td><td>Wed 10-28</td><td>n/a</td><td>±5.5%</td><td>10-30 (weekly)</td></tr>
+<tr><td>AEP</td><td>Wed 10-28</td><td>n/a</td><td>±5.1%</td><td>11-20 (monthly)</td></tr>
+<tr><td>INTC</td><td>Thu 10-29</td><td>after close</td><td>±9.9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>AMZN</td><td>Thu 10-29</td><td>after close</td><td>±7.9%</td><td>10-30 (weekly)</td></tr>
+<tr><td>TWLO</td><td>Thu 10-29</td><td>n/a</td><td>±15.4%</td><td>10-30 (weekly)</td></tr>
+<tr><td>PWR</td><td>Thu 10-29</td><td>n/a</td><td>±13.2%</td><td>11-20 (monthly)</td></tr>
+<tr><td>FSLR</td><td>Thu 10-29</td><td>n/a</td><td>±9.8%</td><td>10-30 (weekly)</td></tr>
+<tr><td>COIN</td><td>Thu 10-29</td><td>n/a</td><td>±9.6%</td><td>10-30 (weekly)</td></tr>
+<tr><td>CAT</td><td>Thu 10-29</td><td>n/a</td><td>±7.4%</td><td>10-30 (weekly)</td></tr>
+<tr><td>SBUX</td><td>Thu 10-29</td><td>n/a</td><td>±6.6%</td><td>10-30 (weekly)</td></tr>
+<tr><td>LLY</td><td>Thu 10-29</td><td>n/a</td><td>±6.5%</td><td>10-30 (weekly)</td></tr>
+<tr><td>GILD</td><td>Thu 10-29</td><td>n/a</td><td>±6%</td><td>10-30 (weekly)</td></tr>
+<tr><td>LIN</td><td>Thu 10-29</td><td>n/a</td><td>±5.6%</td><td>11-20 (monthly)</td></tr>
+<tr><td>MRK</td><td>Thu 10-29</td><td>n/a</td><td>±5.3%</td><td>10-30 (weekly)</td></tr>
+<tr><td>MO</td><td>Thu 10-29</td><td>n/a</td><td>±4.1%</td><td>10-30 (weekly)</td></tr>
+<tr><td>MA</td><td>Thu 10-29</td><td>n/a</td><td>±3.5%</td><td>10-30 (weekly)</td></tr>
+<tr><td>ABBV</td><td>Fri 10-30</td><td>before open</td><td>±4.8%</td><td>10-30 (weekly)</td></tr>
+<tr><td>CCJ</td><td>Fri 10-30</td><td>n/a</td><td>±8.5%</td><td>11-06 (weekly)</td></tr>
+<tr><td>REGN</td><td>Fri 10-30</td><td>n/a</td><td>±6.6%</td><td>11-06 (weekly)</td></tr>
+<tr><td>CVX</td><td>Fri 10-30</td><td>n/a</td><td>±5.2%</td><td>11-06 (weekly)</td></tr>
+<tr><td>XOM</td><td>Fri 10-30</td><td>n/a</td><td>±5.2%</td><td>11-06 (weekly)</td></tr>
+<tr><td>D</td><td>Fri 10-30</td><td>n/a</td><td>±4.5%</td><td>11-20 (monthly)</td></tr>
+<tr><td>CL</td><td>Fri 10-30</td><td>n/a</td><td>±4.1%</td><td>11-06 (weekly)</td></tr>
+</tbody></table></div>
+<h2>Data</h2>
+<p><a href="earnings-week-2026-10-26.csv">earnings-week-2026-10-26.csv</a> (CC BY 4.0) · Report dates and timing: dates and timing as compiled in the SIGNUM HQ earnings calendar and not independently confirmed for every company; a missing timing means it was not available there. Other datasets: <a href="./">options market structure daily</a> · <a href="finra-short-volume.html">FINRA short volume ratio</a> · <a href="congress.html">Congress trades</a>.</p>
+<p>The same numbers, updated live with the expiration selector and an earnings calendar, are in the free SIGNUM HQ app: <a href="https://signumhq.com/app?from=github_pages">signumhq.com/app</a>. Derived metrics only; not investment advice.</p>
+</body>
+</html>
