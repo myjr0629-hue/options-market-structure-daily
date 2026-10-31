@@ -33,6 +33,12 @@ Traders and researchers use structure levels to *describe* where positioning is 
 
 Browse it at https://myjr0629-hue.github.io/options-market-structure-daily/congress.html, with one page per member.
 
+## Weekly earnings implied moves
+
+`earnings-week-2026-11-02.csv` lists the move the options market priced in for 39 US companies reporting in the week of **Nov 2-6, 2026**, using closing option mids of the **2026-10-30** session: the at-the-money straddle (call mid + put mid at the strike nearest the price, same strike both legs) divided by the stock price, for the nearest listed expiry after the report. Examples: **AAPL ±4.3%** (reports Mon Nov 2 after the close, Nov 4 weekly expiry) and **PLTR ±13.3%** (reports Mon Nov 2 after the close, Nov 6 weekly expiry).
+
+It is the *size* of the priced-in move, not a direction and not a forecast. Report dates come from the SIGNUM HQ earnings calendar and most are not yet confirmed by the companies (the `date_status` column says which are); weekly expiries sit right after the report, monthly (Nov 20) expiries include extra weeks and read larger. Browse it at https://myjr0629-hue.github.io/options-market-structure-daily/earnings-week.html. The previous week's file (`earnings-week-2026-10-26.csv`) stays in the repo, so you can compare priced-in moves with what happened. The app shows the same numbers live with a countdown and the after-the-report comparison: https://www.signumhq.com/app?from=github_1031
+
 ## Usage
 
 ```python
